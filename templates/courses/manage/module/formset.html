@@ -1,0 +1,15 @@
+{% extends 'account/base.html' %}
+{% block content %}
+<h2 class="text-2xl text-center p-6 bg-sky-900 text-white">Edit course modules</h2>
+<div class="  bg-slate-200 ">
+    <div class="text-grey-700 max-w-sm mx-auto p-6">
+        
+        <form action="." method="POST" class="">
+            {{ formset }}
+            {{ formset.management_form }}
+            {% csrf_token %}
+            <input type="submit" class="btn" value="save modules">
+        </form>
+    </div>
+</div>
+{% endblock %}

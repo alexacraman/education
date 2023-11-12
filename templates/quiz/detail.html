@@ -1,0 +1,24 @@
+{% extends 'account/base.html' %}
+{% block content %}
+{% load static %}
+<div class="bg-sky-900 p-6">
+
+
+    <div class="max-w-lg mx-auto border border-gray-400 rounded p-6 shadow-lg  bg-white" id="quizContainer">
+        <h1 class="text-center text-2xl font-bold ">{{object.name}}</h1>
+        <h2 class="text-center text-md font-bold my-6">Score to pass: {{object.required_score_to_pass}}%</h2>
+        <form id="quiz-form" class="" method="POST">
+        {% csrf_token %}
+            <div id="quiz-box" class=""></div>
+            <div class="flex justify-center">
+                <button type="submit" class="btn my-12 bg-gray-600 text-white">Submit</button>
+            </div>
+        
+            <div id="timer-box"></div>
+        </form>
+    </div>
+</div>
+
+<script src="//cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+<script src="{% static 'js/quiz.js' %}"></script>
+{% endblock %}

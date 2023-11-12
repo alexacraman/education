@@ -1,0 +1,274 @@
+
+<div class="max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl text-lg">
+    <h1 class="text-xl text-center my-6 mx-auto font-bold">The risks for you and others if you don't manoeuvre in a safe and correct manner </h1>
+    <h3 class="font-bold p-6">There are risks involved in moving and handling.  </h3>
+    <ul class="list-decimal p-6 mb-6 mx-6">
+        <li>Risks to you</li>
+        <li class="my-4">Risks to the person being moved</li>
+        <li>Risks to others involved </li>
+    </ul>
+    <p class="p-6 my-6">
+        Stresses, strains and sprains to the back, neck and upper limbs are all too common in industries where manual handling plays an integral part of the business.  Lifting and manoeuvring objects and repetitive tasks can all lead to Work-Related Musculoskeletal Disorders (WRMSDs). 
+    </p>
+    <p class="p-6 my-6">
+        Some published statistics have shown that in the UK, over 9.5 million working days were lost in 2014/15 due to WRMSDs which accounts for 44% of workforce ill-health in the same period.  
+    </p>
+    <h3 class="font-bold p-6">Such injuries can be broken down into three areas </h3>
+    <ul class="list-decimal p-6 mb-6 mx-6">
+        <li>Back injuries</li>
+        <li class="my-4">Upper limb injuries</li>
+        <li>Lower limb injuries </li>
+    </ul>
+<div class="p-6 my-6">
+    <div class="my-12 bg-orange-100 border-t-4 border-orange-500 rounded-b text-orange-900 px-4 py-3 shadow-md" role="alert">
+        <div class="flex">
+          <div class="py-1"><svg class="fill-current h-6 w-6 text-orange-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"/></svg></div>
+          <div>
+            <p class="font-bold">Back Injuries</p>
+            <p class="text-sm">In 2014/15, it is estimated that nearly 3 million working days were lost due to injuries to the back. </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="my-12 bg-orange-100 border-t-4 border-orange-500 rounded-b text-orange-900 px-4 py-3 shadow-md" role="alert">
+        <div class="flex">
+          <div class="py-1"><svg class="fill-current h-6 w-6 text-orange-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"/></svg></div>
+          <div>
+            <p class="font-bold">Upper limb injuries.</p>
+            <p class="text-sm">These include injuries such as repetitive strain trauma, hand/wrist tendon syndromes, carpal tunnel syndrome and tennis/golfer’s elbow (epicondylitis) which can affect the shoulder, neck, arms, wrists or hands. </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="my-12 bg-orange-100 border-t-4 border-orange-500 rounded-b text-orange-900 px-4 py-3 shadow-md" role="alert">
+        <div class="flex">
+          <div class="py-1"><svg class="fill-current h-6 w-6 text-orange-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"/></svg></div>
+          <div>
+            <p class="font-bold">Lower limb injuries.</p>
+            <p class="text-sm">Although there were less lower limb disorders reported in 2014/15 – there were almost 2.4 million working days lost due to lower limb disorders. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="max-w-sm mx-auto border-8 border-dashed p-4 text-lg text-center">
+        Generally speaking men are more likely to suffer and injury from moving and handling.
+    </div> 
+
+      <div class="p-6 mt-12  border-l-8 border-sky-900 bg-gradient-to-tr from-sky-900 to-sky-400 text-white">
+        <h1 class="my-6 text-center">What are the three common injuries associated with poor moving and handling?</h1>
+        <div class="flex justify-center text-sm ">
+            <button class="border-r-2 border-teal-200 p-2" onclick="this.firstChild.classList.add('tick')"><span></span>A. Back, Upper limb, lower limb</button>
+            <button class=" p-2" onclick="this.firstChild.classList.add('cross')"><span></span>B. Back, torso, legs</button> 
+        </div>
+    </div> 
+</div>
+
+
+
+         
+         <p class="text-xl mb-2">Does the emergency lighting work? If not report it. You need to be able to see where you are going in the event of a fire.</p>
+         
+          
+
+         <ul class="list-disc p-6 text-lg">
+            <li>www.mind.org.uk </li>
+            <li>www.samaritans.org and 116 123 </li>
+            <li>TED talks</li>
+            <li>Mindfulness </li>
+            <li>Counselling </li>
+            <li>Gp's</li>
+            <li>Medications (I am not a medical professional and cannot recommend or list any here) please speak to a medical professional before starting any medical treatment. </li>
+            
+        </ul>
+        <div class=" text-lg mb-6">
+            If you remove one of these elements the fire will stop or even better not start in the first place.
+            So, how do you do this. Well by following what we discussed in module 1 is a good place to start.
+        </div>  
+        <ul class="list-disc  text-lg mb-6">
+            <li class="recap">Checking fire exits are free from obstruction</li>
+            <li class="recap mt-2">Noting any scorch/burn marks on plugs and reporting this </li>
+            <li class="recap mt-2">Checking bins are emptied regularly</li>
+            <li class="recap mt-2">Visual checks on emergency lighting to ensure it is working </li>
+            <li class="recap mt-2">Checking the fire panel for faults</li>
+            <li class="recap mt-2">Ensuring corridors are free from obstruction</li>
+            <li class="recap mt-2">All people in the service should have a PEEP (PERSONAL EMERGENCY EVACUATION PLAN)</li>
+            <li class="recap mt-2">All staff should know where the alarm points are and where to evacuate to.</li>
+            <li class="recap mt-2">Fire doors should be kept shut and never propped open.</li>
+            <li class="recap mt-2">Fire evacuation drills</li>
+            <li class="recap mt-2">Checks of fire fighting equipment</li>
+            <li class="recap mt-2">Lighting checks</li>
+            
+        </ul>
+        <div class="max-w-sm mx-auto border-8 border-dashed p-4 text-lg text-center">
+            The three elements needed to start a fire are.<br>
+            <b>Heat, Fuel and Oxygen</b>
+        </div> 
+
+        {% for image in task.comment_set.all %}
+        {{ image.url }}
+    {% endfor %}
+
+
+
+
+
+    <div class="w-full  mx-auto">
+        <div class="flex p-5 rounded-lg shadow bg-white">
+          <div>
+            <svg class="w-6 h-6 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 5.99L19.53 19H4.47L12 5.99M12 2L1 21h22L12 2zm1 14h-2v2h2v-2zm0-6h-2v4h2v-4z"/></svg>
+          </div>
+          <div class="ml-3">
+            <h2 class="font-semibold text-gray-800">Report it. Do not keep it to yourself.</h2>
+            <p class="mt-2 text-md text-gray-600 leading-relaxed">Repert it to the DSL in your work place if you have one. Call your local authority. Call the police. Call the NSPCC. </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="p-6 my-8  border-l-8 border-sky-900 bg-gradient-to-tr from-sky-900 to-sky-400 text-white">
+       
+        <h1 class="my-6 text-center"> Tick the correct answers.</h1>
+    
+        <div class="grid grid-cols-3 text-sm ">
+    
+        <div class="col-span-1">
+            <p class="text-lg mb-2 "> 1. Poor mental health looks the same in everyone........</p> 
+            <div class="flex justify-center mt-12">
+                <button class="border border-teal-200 p-4" onclick="this.firstChild.classList.add('cross')"><span></span>True</button>
+                <button class="border border-teal-200 p-4" onclick="this.firstChild.classList.add('tick')"><span></span>False</button>
+            </div>
+        </div>
+        
+        <div class="col-span-1">
+            <p class="text-lg mb-2 ">2. It's easy to bring up the fact you are experiencing poor mental health........   </p> 
+            <div class="flex justify-center mt-12">
+                <button class="border border-teal-200 p-4" onclick="this.firstChild.classList.add('cross')"><span></span>True</button>
+                <button class="border border-teal-200 p-4" onclick="this.firstChild.classList.add('tick')"><span></span>False</button>
+            </div>
+        </div>
+    
+        <div class="col-span-1">
+            <p class="text-lg mb-2 "> 3. People with poor mental health rarely smile...........</p> 
+            <div class="flex justify-center mt-12">
+            <button class="border border-teal-200 p-4" onclick="this.firstChild.classList.add('cross')"><span></span>True</button>
+            <button class="border border-teal-200 p-4" onclick="this.firstChild.classList.add('tick')"><span></span>False</button>
+            </div>
+        </div>
+            
+        </div>
+        
+    </div>  
+      
+
+    Pop quiz!
+    What three elements do you need to make fire?
+    
+     
+   
+
+      <button class=" p-2" onclick="this.firstChild.classList.add('tick')"><span></span>C. It is a legal and regulatory requirement</button>
+
+      <div class="p-6 my-8  border-l-8 border-sky-900 bg-gradient-to-tr from-sky-900 to-sky-400 text-white">
+
+        <h1 class="my-6 text-center"> Tick all potential fire hazards</h1>
+        <div class="grid grid-cols-3 text-sm ">
+            <button class="border-r-2 border-teal-200 p-2" onclick="this.firstChild.classList.add('tick')"><span></span>A. Full bins</button>
+    
+            <button class=" p-2" onclick="this.firstChild.classList.add('tick')"><span></span>B. Blocked fire exits</button>
+            <button class="border-l-2 border-teal-200 p-2" onclick="this.firstChild.classList.add('tick')"><span></span>C. External bins too close to the propert</button>
+            
+        </div>
+    </div> 
+
+
+           
+      <div class="max-w-4xl mx-auto border-8 border-dashed p-4 text-lg text-center mt-6">
+        Infection, protection, prevention, and control is about minimising the risks of infections spreading, and therefore people becoming unwell. 
+    </div> 
+    <h1 class="my-6 font-bold">There are many ways in with infections can spread.</h1>
+    <ul class="list-disc p-6 text-lg">
+        <li>Poor hand hygiene</li>
+        <li>Poor and infective cleaning regimes</li>
+        <li>Cross contamination </li>
+        <li>Touch </li>
+        <li>Coughing</li>
+        <li>Sneezing </li>
+        <li>Needle stick injuries</li>
+        <li>Bites</li>
+        <li>Scratches</li>
+    </ul>
+    
+
+      <p class="text-xl mb-2">Good infection control starts with you, your practices. 
+        It is important to protect against all causes and sources of infection. 
+        
+        If you have a wound then this needs to be covered with a plaster. 
+        
+        If supporting somebody with a wound then appropriate PPE needs to be worn, such as gloves, aprons... 
+        </p>
+
+        <div id="law"  >
+            <h1 class="text-center font-bold text-2xl my-4 ">The Regulatory reform (fire safety) order (2005)</h1>
+            <p class="flex items-center font-bold  p-2 bg-inherit" >
+            This puts a legal duty on anyone with a level of control to do what they can to reduce the risk of fire and makes sure people can escape.</p>
+           
+        </div>
+        <div class="max-w-3xl my-6 mx-auto text-slate-700 text-lg">
+            <h1 class="text-center font-bold text-2xl my-4 ">How does this impact you?</h1>
+            <p class="flex items-center font-bold  p-2 bg-inherit" > It says anyone with a level of control must do what they can to reduce the risk of fire and make sure people can escape.<br>
+                This would include but not limited to
+                </p>
+            <ul>
+            <li>The fire escapes been kept clear </li>
+            <li>Risk assessments completed</li>
+            <li>PEEPS are in place</li>
+            <li>Checks on appliances and plugs for signs of damage </li>
+            <li>Completing the Regulatory fire checks within your building</li>
+            <li>External bins not too close to the property </li>
+            <li>Internal bins emptied regularly</li>
+            <li>All staff in daye with training</li>
+            <li>If there is a member of your team.who may require additional assistance to evacuate then they should be a plan</li>
+            </ul>
+        </div>
+
+<!-- <div class="grid  grid-cols-1 md:grid-cols-3">
+
+
+    <div class="contents mt-6">
+        
+        <ul id="modules" class="bg-sky-900 text-cream p-12">
+            <h3 class="text-center text-2xl   mb-6">Modules</h3>
+            {% for m in object.modules.all %}
+            <li data-id="{{ m.id }}"  {% if m == module %} class="bg-cream text-sky-900 -mr-24 p-6 rounded-l-lg"{% endif %}>
+                <a href="{% url 'student_course_detail_module' object.slug m.id %}" class="text-lg  text-slate-600">
+                    <span>Module <span class="order">{{ m.order|add:1 }}</span></span><br><span {% if m == module %}class="text-sky-900"{% endif %} class="text-lg text-cream">{{ m.title }}</span>
+                </a>
+            </li>
+           
+            {% empty %}
+            <li>No Modules yet</li>
+            {% endfor %}
+            <li class="flex justify-center mt-6">
+                <a href="{% url 'quiz:list'  %}"  class="btn hidden" id="revBtn">Take test</a>
+            </li>
+        </ul>
+        <script>
+            
+        </script>
+    </div>
+  
+    <div class="module bg-cream p-12 col-span-2  flex flex-wrap"  >
+        {% for content in module.contents.all %}
+            {% with item=content.item %}
+               <h2 class="text-center text-xl p-6 "> {{ item.title }}</h2>
+              
+               <pre class="font-sans leading-loose list-disc p-6 overflow-auto" >{{ item.render }}</pre> 
+
+
+            
+            {% endwith %}
+        {% endfor %}
+       
+    </div>
+    
+</div> -->

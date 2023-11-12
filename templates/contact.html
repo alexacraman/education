@@ -1,0 +1,17 @@
+{% extends 'account/base.html' %}
+{% block content %}
+<div class="p-12 ">
+    <h4 class="text-center text-2xl ">Contact us</h4>
+    <div class="max-w-sm mx-auto ">
+        <form method="post">
+            {% csrf_token %}
+            {{ form }}
+            <div class="flex justify-center">
+                <input type="submit" value="Submit" class="btn bg-cyan-700">
+            </div>
+   
+        </form>
+    </div>
+</div>
+
+{% endblock %}

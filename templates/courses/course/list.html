@@ -1,0 +1,45 @@
+{% extends 'account/base.html' %}
+
+{% block content %}
+<h1 class="bg-sky-900 text-cream text-2xl p-6">
+    {% if subject %}
+        {{ subject.title }}
+    {% else %}
+        All Courses
+    {% endif %}
+</h1>
+<div class="grid grid-cols-1 md:grid-cols-4">
+
+
+    <div id="contents" class="bg-cyan-700 text-slate-700 p-6  ">
+        <h3>Subjects</h3>
+        <ul id="modules" class="space-y-6">
+            <li {% if not subject %}class="selected"{% endif %}>
+                <a href="{% url 'course_list' %}">All</a>
+            </li>
+            {% for s in subjects %}
+            <li {% if subject == s %}class="selected py-6"{% endif %}>
+                <a href="{% url 'course_list_subject' s.slug %}">
+                    {{ s.title }}
+                    <br><span class="text-gray-300">{{ s.total_courses }} course(s)</span>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="module col-span-3 p-6" >
+        {% for course in courses %}
+        {% with subject=course.subject %}
+        <div class="m-6">
+            <h3 class="font-bold text-xl"><a href="{% url 'course_detail' course.slug %}">{{ course.title }}</a></h3>
+            <p >
+                <a href="{% url 'course_list_subject' subject.slug %}">{{ subject }}</a> {{ course.total_modules }} modules
+                Instructor: {{ course.owner.get_full_name }} 
+            </p>
+        </div>
+        
+        {% endwith %}
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

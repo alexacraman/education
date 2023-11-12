@@ -1,0 +1,1075 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Mental Health Awareness",
+    "slug": "mental-health-awareness"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 2,
+  "fields": {
+    "title": "Safeguarding",
+    "slug": "safeguarding"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 4,
+  "fields": {
+    "title": "Infection Control",
+    "slug": "infection-control"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 5,
+  "fields": {
+    "title": "Fire Safety",
+    "slug": "fire-safety"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 6,
+  "fields": {
+    "title": "Manual Handling",
+    "slug": "manual-handling"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 2,
+    "subject": 2,
+    "title": "Understanding Safeguarding",
+    "picture": "img/pd.jpg",
+    "slug": "Understanding-Safeguarding",
+    "overview": "Aim: by the end of this training you will understand what safeguarding is and provide safe and caring environments for children, young people and adults. \r\n\r\nObjectives: by the end of this training you will know- \r\n1. What safeguarding is\r\n2. Who needs safeguarding\r\n3. Know the legislation that feeds safeguarding \r\n4. What is the difference between safeguarding and child protection \r\n5. What are the difference between child safeguarding and adult safeguarding \r\n6. Different categories of abuse\r\n7. Commonly recognised signs in children and young people to be aware of\r\n8. What to do if you have a concern\r\n9. Models used by local authorities \r\n10. Case studies to look at\r\n11. Knowledge test",
+    "created": "2022-08-06T10:29:34.755Z",
+    "students": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 3,
+  "fields": {
+    "owner": 2,
+    "subject": 1,
+    "title": "Mental Health Awareness",
+    "picture": "img/mh.jpg",
+    "slug": "mental-health-awareness",
+    "overview": "✓     What is mental health\r\n✓    Who has mental health\r\n✓     What does poor mental health look like\r\n✓   What does good mental health look like and how to promote this\r\n✓   How to spot the signs in yourself and others who may be experiencing poor mental health\r\n✓   What help is out there and how to access this",
+    "created": "2022-08-18T14:58:59.559Z",
+    "students": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 4,
+  "fields": {
+    "owner": 2,
+    "subject": 4,
+    "title": "Infection, protection, prevention and control.",
+    "picture": "img/control.jpg",
+    "slug": "infection-protection-prevention-and-control",
+    "overview": "Objectives.\r\n\r\nBy the end of this course you will \r\n✓ Understand what is meant by infection, protection, and control.\r\n✓ Why it is important to control and protect against infections or infectious diseases. \r\n✓ What you must do to ensure and maintain you have good infection, protection and control.\r\n✓ What does the legislation say\r\n✓ Knowledge test",
+    "created": "2022-09-21T14:09:04.851Z",
+    "students": [
+      1
+    ]
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 5,
+  "fields": {
+    "owner": 2,
+    "subject": 5,
+    "title": "Fire safety in the workplace",
+    "picture": "img/fire.jpg",
+    "slug": "fire-safety",
+    "overview": "Objectives\r\n• Understand what fire safety is and how to minimise fire risks\r\n• What elements make a fire\r\n• Understand what constitutes a fire hazard\r\n• Understand what legislation feeds into fire safety\r\n• How to evacuate the building\r\n• Differences in fire extinguishers and their uses\r\n• Knowledge test",
+    "created": "2022-09-21T14:56:33.021Z",
+    "students": [
+      1
+    ]
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 6,
+  "fields": {
+    "owner": 2,
+    "subject": 6,
+    "title": "Manual Handling",
+    "picture": "img/carry_sP3m3yU.jpg",
+    "slug": "manual-handling",
+    "overview": "Objectives\r\nBy the end of this training you will \r\n• Know the Regulations for moving and handling\r\n• How to safely manoeuvre an individual\r\n• How to safely move objects\r\n• The risks for you and others if you don't manoeuvre in a safe and correct manner\r\n• Knowledge test",
+    "created": "2022-10-10T13:16:58.702Z",
+    "students": [
+      1
+    ]
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 3,
+  "fields": {
+    "course": 1,
+    "title": "What safeguarding is",
+    "description": "There is no quick answer to this. Safeguarding is an umbrella term used to describe all the things that are done around children, young people and adults at risk to ensure they stay safe from neglect, abuse or harm. \r\nThis is things like knowing the people you care for, educate, teach an out of school class to, dance, martial art, drama...\r\nIf in care, do they have a care plan FYI they should! What does this say about the person. What do they like, what don't they like, what can they do for themselves, what do they need help with, can they eat, drink, go to the bathroom, what level of support do they need? These are just some things you should know. If you get something wrong it could lead to the person sustaining an injury, lead them to choke, get more care then they need, or not enough care they need. These elements all form part of safeguarding. \r\nIf working in education, they will possibly have a pastual support plan. This will indicate levels of support needed in the education environment to enable them to access their learning in the most effective way. \r\nDo the young people have specific risk assessments. How are they followed, reviewed,  and kept up to date and relevant. If any information is missing it could lead to an incident which could lead to a safeguarding concern. \r\nSafeguarding is everything we/you do to ensure children, young people and adults at risk staybsafe from harm, identifying when things go wrong, and what safety measures can be put in place to prevent recurrence of the same issue. \r\nSafeguarding is knowing the children, young people or adult at risk and noticing changes in behaviour. Reporting injuries that are not explained but also recording injuries that are explained so they don't become a potential safeguarding concern. \r\nSafeguarding: everything done to look after the people we care for\r\nSafeguarding concern: reporting things when gone wrong",
+    "order": 0
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 4,
+  "fields": {
+    "course": 1,
+    "title": "Who needs Safeguarding",
+    "description": "Children, young people, adults at risk and the elderly receiving care all need to be safeguarded from harm.\r\nThere is a legal obligation placed on people within a position of power to safeguard the people they work with (for reference the term people they work means children,  young people and adults at risk). By Safeguarding the people they work with they are being proactive in preventing harm.\r\nIf you suspect it report it. Think what if im right, not what if I'm wrong! \r\nBetter to report it and it turn out to be nothing than not report it and turn out to be something. Remember what you are seeing or reportingay only be a small part of a much bigger puzzle and yours is the missing piece. \r\nThere should be a responsible person for safeguarding where you are working- this person will likely be known as the DSL (DESIGNATED SAFEGUARDING LEAD) or Safeguarding Lead, Head of safeguarding, or something similar. This person is responsible for the managing of safeguarding concerns, however it is everyone's job to safeguard the people they work with. Safeguarding is everyone's responsibility.",
+    "order": 1
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 5,
+  "fields": {
+    "course": 1,
+    "title": "What is the difference between safeguarding and child protection.",
+    "description": "As we talked about before, safeguarding is everything we do around the chid/young person/adult at risk to prevent harm...\r\nChild protection is what happens when the above has failed or a concern reported needed to be escalated further. \r\n\r\nChild protection is when a child has come to harm and interventions are now required. \r\n\r\nLocal authorities use models to help establish levels of support. \r\nTwo common ones are\r\nSigns of safety\r\nFamily level of need. \r\n\r\nThese models support the local authority in their decision making. \r\n\r\nChild protection will usually lead to further enquires, strategy meetings and a real focus on how to protect the child from further harm. \r\n\r\nStrategy meetings will include professionals that have worked with the family, eg health visitor, social worker, teacher, care home manager, police, doctor, and will be chaired by a specialist in this area. However, as this is only an understanding of safeguarding we won't go in to the details of this in this course.",
+    "order": 2
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 6,
+  "fields": {
+    "course": 1,
+    "title": "What are the differences between, child and adult safeguarding.",
+    "description": "At their grass roots the aim of both I'd ultimate same. Protecting people from any form of neglect abuse and harm. \r\n\r\nThe key differences really are; the legislation that feeds in to them. We touched on this earlier in terms of different legislation\r\nChildrens any 2004\r\nKeeping Children Safe in Education \r\nCare Act 2014 \r\n\r\nThere are other legislations however these are key ones. \r\n\r\nIn addition tonreporting concerns to the local authorty which is the same for both adults and children, Childrens safeguarding there is a team called the LADO this stands for local authority Designated officer. This team are notified when a professional is suspected of wrongdoing. There is no LADO for adults. \r\n\r\nThere are more differences however, again, as this is an understanding rather than qualification we won't go in to that here. This would be covered within tour local DSL training and what your local authority wants reporting to them.",
+    "order": 3
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 7,
+  "fields": {
+    "course": 1,
+    "title": "Know the legislation that feeds safeguarding",
+    "description": "The key legislations feeding into safeguarding are\r\nKeeping Children Safe in Education (KCSIE) anyone working with the education system is legally invited to read Appendix A. This legislation requires everyone's safeguarding refreshers to be completed in September, the start of the academic year. This ensures any changes are known. \r\n\r\nThe children's act 2004. Under this legislation any suspicions of abuse, neglect or harm will lead to an enquiry under section 47 of this act. \r\nKey principles of the act\r\n1. Allow children to be healthy\r\n2. Help children to be happy and enjoy life\r\n3  allowing children to remain safe in their environments \r\n4. Help children to succeed \r\n5. Help acheive economic stability for the future of children\r\n6. Help make a positive contribution to children's lives. \r\n\r\nWorking together to safeguard children DfE 2018 \r\n\r\nChildren and Social work act 2017 \r\n\r\nWhat to do if you're worried a child is being abused DfE 2015 \r\n\r\nThe care act 2014. Under this legislation any suspicions of abuse, neglect or harm will lead to an enquiry under section 42 of this act. The care act feeds into adult care. \r\nThe key principles in this act are\r\n1. Empowerment\r\n2. Protection\r\n3. Prevention\r\n4. Proportionality \r\n5. Partnership\r\n6. Accountability \r\n\r\nHuman rights act 1988\r\nSexual offences act 2003\r\nMental capacity act 2005 (dols)\r\nSafeguarding vulnerable groups act 2016\r\nEquality act 2010",
+    "order": 4
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 8,
+  "fields": {
+    "course": 1,
+    "title": "Different categories of abuse",
+    "description": "Physical\r\nEmotional \r\nSexual \r\nInstitutional\r\nDomestic\r\nChild sexual exploitation\r\nFemale genital mutilation \r\nCounty lines\r\nCookooing \r\nHonour based violence\r\nRadicalisation \r\nChild criminal exploitation \r\nNeglect",
+    "order": 5
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 9,
+  "fields": {
+    "course": 3,
+    "title": "What is Mental Health",
+    "description": "Mental health is the state in which our mental health is functioning. Some people have good mental health whilst some people do not. Poor mental health can affect any person at anytime in their life. This could be a reaction or chemical response to a specific event in their life or it could be a build of smaller events of a period of time. \r\n\r\n\r\nUnderstanding the above is paramount to building awareness and removing social stigma for those who experience poor mental health. \r\n\r\nWhen people hear the term mental health there is an automatic assumption this is relating to someone experiencing poor mental health however, just like physical health, and when we talk about that, we don't just discuss it when it's bad, we discuss it when it's good and how we can prevent it from getting bad. The same needs to happen for your mental health. As the age old saying goes prevention is better than cure.\r\nThere are many factors that can impact our mental health both in positively and negatively and it is vital we understand what these are. For each person they can be different but there are some things which are constant in impacting.\r\n\r\nSome factors for positive mental health can be\r\n• Having an outlet, sport, hobby, craft. Something that is just for you.\r\n• Learning to say no. A small but powerful word. Learning to say no can have such a healthy impact on your life both in your private life and your professional life. \r\n• Eating right. There is much evidence to show that eating healthy impacts positively on your mental state. \r\n• Exercise. This generates dopamine which is a feel good hormone. \r\n\r\nSome negative factors include\r\n\r\n• Alcohol- this is a depressant and actually lowers your mood. Block's out thoughts so gives the impression it is helping however all it does it compress the issue or issues someone is facing\r\n• Caffeine- excess caffeine increases the heart rate, this has a negative impact on your anxiety. \r\n• Unhealthy diet - you eat bad you feel bad\r\n• Lack of exercise \r\n• Not creating time for yourself, a hobby, craft, club, class. \r\n\r\n\r\nPlease complete below, no more than 500 words, what mental health is and things that impact on this both positively and negatively.......................................................................................................",
+    "order": 0
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 10,
+  "fields": {
+    "course": 3,
+    "title": "Who has mental health?",
+    "description": "Well the simple answer is everyone. Every single person on this planet has mental health just like every single person has physical health, and like physical health, mental health can both be Good and bad and varying levels of both. It can also fluctuate. \r\nIt is normal to feel episodes of sadness or worry, it is when these take over your daily life, your capacity to do things, or  impacts upon your thoughts that it becomes poor mental health. \r\nStigma, although not as bad as it once was, still impacts on people with poor mental health. \r\nFor some, when they experience periods of poor mental health this may last a short while and for others it can be a prolonged experience. \r\nIt is important for us all to understand we all have mental health and that we need to care of it and recognise when it may be in need of extra care.\r\nIt is well documented that men are most at risk of taking their own life due to experiencing poor mental health. It is currently the largest cause of death for men under the age of 50. Although a lot of work has been done and continues to be done around removing stigma many men still feel that suffering poor mental health is a sign of weakness, makes them less of a man. This is simply not true. Mental Ill health is NOT a sign of weakness. Because of this feeling men are less likely to seek out support.\r\nFor women with poor mental health they are more likely to seek support from a doctor, counsellor, friend, someone who will listen. This does not mean women are not impacted to the point that they may end their life, it is just that women are better ar seeking support. \r\n\r\nActivity\r\nList 5 things that could be done to reduce social stigma around mental health.\r\n1.\r\n2.\r\n3.\r\n4.\r\n5.",
+    "order": 1
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 11,
+  "fields": {
+    "course": 3,
+    "title": "What does poor mental health look like?",
+    "description": "Well it can look like me, it can look like you, it can look like someone with a sad face it can look like someone with a smile. The truth is poor mental health can take many forms and what it looks like doesn't fit one box.\r\nThere are however things you can look out for in loved ones, close friends, colleagues. It could be a change in behaviour, it could be not meeting up with friends or family at the last minute, someone isn't sleeping, someone not taking an interest in things they used to get enjoyment out of, someone having difficulty in concentrating on things, weight gain ,weight loss... \r\nThe above does not automatically mean if someone experiences one or two or even three four of these that they are struggling with their mental health, what these are are some common indicators that people experience when going through a period of poor mental health. \r\nIf you notice a friend, or family member starting to make excuses to not attend social events this can be annoying but rather than stop inviting them or getting annoyed, ask the question - is everything OK? Do you need to talk? I've noticed your not yourself at the minute, anything I can do? You may be surprised by the answer. \r\nIf experiencing poor mental health it is not always easy to open up dialogue with people about this, however, if asked by someone else it can make the start of that dialogue easier, less scary. \r\nRemember if you are struggling there are ways for you to get help. \r\n\r\nSamaritans 116 123\r\nGP\r\nTrained professional \r\nSpeak to a friend or someone you trust\r\n\r\n\r\n\r\nActivity \r\n\r\nTrue of false \r\n\r\n1. Poor mental health looks the same in everyone........ \r\n\r\nTrue or false \r\n\r\n2. It's easy to bring up the fact you are experiencing poor mental health........ \r\n\r\nTrue or false \r\n\r\n3. People with poor mental health rarely smile...........",
+    "order": 2
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 12,
+  "fields": {
+    "course": 3,
+    "title": "What does good mental health look like and how to promote this.",
+    "description": "Just like poor mental health it is important to understand what good mental health looks like. Without knowing this it would be harder to know when our mental health is struggling. \r\n\r\nAgain, there is no one size fits all. Just because you or someone you know is having a bad day or bad week this does not automatically mean they are having concerns with their mental health as it is a normal emotion to feel down, sad, angry but it is how we deal with those emotions that matters. \r\n\r\nYou have a hobby, craft, outlet you enjoy and you take part in this regularly. \r\nYou look after yourself and maintain a healthy diet and eat well. \r\n\r\nSomeone who talks about problems they are having rather than bottlening things up and keeping it to themselves. \r\nIt spans the wider society and about their understanding, so people like you are helping by undertaking this course. \r\n\r\nIf you are an employer it may be worth championing mindfulness sessions such as relaxation sessions like yoga or meditation. Group reflective supervision where people can share experiences- this should not be confused with counselling sessions - only a trained qualified professional is able to offer this.\r\nTaking part in mental health awareness week.\r\nOffering a mental health first aider service.\r\nSome employers goneven further by offering an in house counselling service for free of charge but this is by no means the majority. The benefits to this are reported as reduced employee absence, more productivity, reduced presenterism of poor mental health and better employee retention are but some of the listed benefits. If you ate not an employer but an employee where the above are not offered, why not discuss it with the management if you think it is needed. \r\n\r\nIt is important to remember your own behaviour can have an impact on how someone is feeling \r\n\r\nA tool I like to use to remember this is the Betari box model. \r\n\r\nMy attitude >\r\naffects >\r\nmy behaviour>\r\naffects>\r\nYour attitude >\r\naffects> \r\nyour behaviour> \r\naffects>\r\nMy attitude \r\nAnd so on.....  \r\nIf you think of the above as a cycle then you can then see how our attitudes impact others.\r\n\r\nActivity \r\n\r\nList four things that promote good mental health \r\n\r\n1............. \r\n\r\n2............. \r\n\r\n3............. \r\n\r\n4.............",
+    "order": 3
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 13,
+  "fields": {
+    "course": 3,
+    "title": "How to spot the signs in yourself and others who may be experiencing poor mental health",
+    "description": "As important as it is to know how to acheive good mental health, and what poor mental health is, it is also important to recognise in others; family, friends, colleagues, anyone you are close to, signs of mental health decline. \r\n\r\nIn this Module we will discuss some possible indicators of some experiencing mental health decline. Please note that what we discuss are only some, more common signs and it is important that there are other indicators so if you suspect something is wrong - talk! \r\n\r\nSomeone who used to enjoy going out, socialising has now started declining invitations. This can be outright but also last minute. This obviously doesn't mean just because someone doesn't fancy going out once or twice is experiencing a decline in their mental health they just may not fancy going out however, keep it in mind and if you think there is a problem create an open, non judgemental safe space to chat. \r\n\r\nA lack of care in appearance and or hygiene. When experiencing a decline in your mental health a person can begin to not take care of themselves. \r\n\r\nExcessive alcohol use or increased use of alcohol. People can sometimes drink as they feel it helps. In truth, alcohol is a depressant. It may feel like it helps as it can act a a blocker however this is not dealing with the issue or issues making you want to drink which then compounds the issue or issues potentially creating the ingredients for a perfect storm. Again, just because fancies the occasional drink does not indicate a problem. \r\n\r\nIf at work you have noticed:\r\n• Someone's performance drop\r\n• Regularly late to work\r\n• Standard of work has dropped off\r\n• Deadlines frequently being missed\r\nThese are just some potential indicators \r\n\r\nSome more urgent signs to look out for.can be people making what could be seen as finalising arrangemts such as\r\n• Getting there affairs in order\r\n• Talking in post humous language such as when I'm gone.\r\n• Appearing to say their goodbyes\r\n• Saying I'm going to take my life or kill myself. There is a  ommon misconception that someone who says it won't do it. This isn't true and needs to be debunked. It.csn be a loud cry for help so offer help, a simple chat. \r\n\r\nPlease note that only ever intervene to help someone if it is safe to do so and never put yourself in danger trying to help someone else. If an emergency always dial 999 before anything. The emergency services don't want to deal with two emergencies. \r\n\r\nActivity \r\n\r\nList 5 signs someone may be experiencing a decline in their mental health. \r\n\r\n1............. \r\n\r\n2............. \r\n\r\n3............. \r\n\r\n4............. \r\n\r\n5.............",
+    "order": 4
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 14,
+  "fields": {
+    "course": 3,
+    "title": "What help is out there and how to access this",
+    "description": "There are many resources out there to support with mental health. \r\n\r\nwww.mind.org.uk \r\n\r\nwww.samaritans.org and 116 123 \r\n\r\nTED talks \r\n\r\nMindfulness \r\n\r\nCounselling \r\n\r\nGPS \r\n\r\nMedications (I am not a medical professional and cannot recommend or list any here) please speak to a medical professional before starting any medical treatment. \r\n\r\nIf you yourself are struggling please seek help that works for you. You are important. You matter. You are worth helping. \r\n\r\nThank you for taking the time to complete this short awareness course. I hope you have got something out of it whether it's how you view mental health, will promote this with friends, family, colleagues etc..., introduce something in the work place or look out for someone. \r\n\r\nTo claim your certificate you will need to complete a short 20 multiple choice knowledge test. You need to achieve a mark of 75%. You can take this as many times as necessary within a 12 month time period.\r\nIt should take no more than an hour. Once successfully completed your certificate will be emailed to your email address you registered with.",
+    "order": 5
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 15,
+  "fields": {
+    "course": 1,
+    "title": "Common recognised signs to look out for",
+    "description": "If a child is or has been a victim of abuse there are some behaviours that may be an indicator to this. Please note though that if a child displays these behaviours it does not mean they have or are being abused or harmed there could be other reasons for this.\r\n1. Over familiarity with adults \r\n2. Withdrawn behaviour from someone who was previously outgoing\r\n3. Injuries to certain parts of body\r\n4. Flinching when approached\r\n5. Wanting to be covered up even in extreme heat\r\n6. Failure to thrive\r\n7. Low self esteem\r\n8. Age inappropriate sexual behaviour \r\n9. Eating disorders \r\n10. Unexplained gifts or money \r\n11. Bed wetting\r\n12. Poor hygiene \r\n13. Missed medical appointments \r\n14. Poor growth\r\n15. Poor attendance \r\n\r\nThere are many more. Have a think why the above are indicators and complete a sentence for each explaining your thoughts.",
+    "order": 6
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 16,
+  "fields": {
+    "course": 1,
+    "title": "What to do if you have a concern.",
+    "description": "Report it. Do not keep it to yourself. Repert it to the DSL in your work place if you have one. Call your local authority. Call the police. Call the NSPCC. \r\n\r\nThe worst thing you can do is to do nothing. \r\n\r\nHave the mindset What if I'm right. Don't think what if I'm wrong. \r\n\r\nIf your workplace has a procedure then follow that.",
+    "order": 7
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 17,
+  "fields": {
+    "course": 1,
+    "title": "Models used by local authorities to support decision making.",
+    "description": "Two common models used are \r\n\r\n1. Signs of safety \r\n\r\n2. Family resilience and level of need. \r\n\r\nThese models help support the local authority to make the best decisions regarding the safety of children, young people, adults at risk and the elderly.",
+    "order": 8
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 18,
+  "fields": {
+    "course": 1,
+    "title": "Case studies to look at",
+    "description": "Please take the time to read look up and read the case studies below. \r\n\r\nEach case lead to a serious case review. \r\n\r\nPlease ensure self care. They do not make for easy reading. Take a break when you need to. \r\n\r\nThe case studies highlight the need for us to be proactive in Safeguarding. \r\n\r\n1. Victoria Climbie \r\n\r\n2. Baby P \r\n\r\n3. Chadruck Mbala Mulo \r\n\r\nPlease list some common themes throughout all of these.",
+    "order": 9
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 19,
+  "fields": {
+    "course": 4,
+    "title": "What is meant by infection, protection and control.",
+    "description": "Understanding what is meant by infection, protection and control.\r\n\r\nInfection, protection, prevention, and control is about minimising the risks of infections spreading, and therefore people becoming unwell. \r\n\r\nThere are many ways in with infections can spread.\r\n• Poor hand hygiene \r\n• Poor and infective cleaning regimes\r\n• Cross contamination \r\n• Touch\r\n• Coughing\r\n• Sneezing \r\n• Needle stick injuries \r\n• Bites\r\n• Scratches \r\n\r\nThe care industry is a hive of infections waiting to be spread and without good practices, it will. \r\n\r\nGood infection control starts with you, your practices. \r\n\r\nIt is important to protect against all causes and sources of infection. \r\n\r\nIf you have a wound then this needs to be covered with a plaster. \r\n\r\nIf supporting somebody with a wound then appropriate PPE needs to be worn, such as gloves, aprons... \r\n\r\nYou must wash your hands before and after supporting with personal care. \r\n\r\nYou should use alcohol hand sanitiser at regular intervals. However, hand washing is the most effective way of cleaning your hands and reducing the spread of infection. \r\n\r\nHand washing  must be done I the correct way:\r\n• First, wet your hands \r\n• Apply soap\r\n• Rub soap creating a lava\r\n• Wash:\r\n    -Around your hands\r\n    -In-between fingers\r\n    -Around the thumbs\r\n    -Scrub Centre of palms\r\n    -Rinse off\r\n    -Dry thoroughly\r\n    -Turn top off with paper towel \r\n    -Bin paper towel \r\n\r\nPop quiz! \r\n\r\nWhat is the most effective way of preventing infections from spreading?\r\nA. Hand sanitiser\r\nB. Hand washing",
+    "order": 0
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 20,
+  "fields": {
+    "course": 4,
+    "title": "Why it is important",
+    "description": "Why it is important to control and protect against infections or infectious diseases.\r\n\r\nBy controlling you are preventing, which is protecting you, your colleagues and the people you care for from the risk of infection. \r\n\r\nDue to the nature of the job you do, the people you provide care to are likely to be vulnerable and their immune systems may be weakened. \r\n\r\nWhilst it is important to maintain good levels of hygiene at all times both at work and at home, due to the client group you work with it is not just important but a legal regulatory requirement to ensure you have good infection, protection and prevention controls in place. \r\n\r\nTo summarise - infection protection and prevention controls are important because\r\n1. The client group you work with are likely vulnerable and therefore more susceptible to severe illness from infection.\r\n2. It is a legal and regulatory requirement \r\n\r\nPop quiz!\r\nWhat are the two main reasons infection protection, prevention controls are important.\r\nTick the two correct answers.\r\nA. The client group you work with are likely vulnerable and therefore more susceptible to severe illness from infection.\r\nB. You boss asked you\r\nC. It is a legal and regulatory requirement",
+    "order": 1
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 21,
+  "fields": {
+    "course": 4,
+    "title": "Maintaining  good infection, protection and control.",
+    "description": "What you must do to ensure and maintain you have good infection, protection and control.\r\n\r\nThere are a number of things you must do to ensure you maintain good infection protection, prevention controls. \r\n\r\nThis includes\r\n• Good and regular hand washing\r\n• Hand washing before and after supporting a client \r\n• Handwashing after completing laundry tasks\r\n• Use of correct PPE\r\n• Correct gloves for correct task.\r\n• Effective cleaning regimes throughout the day.\r\n    -  Dusting you should firstly\r\n1.  Damp dust\r\n2. Start from the cleaner area moving to the dirtier area\r\n    - mopping\r\n1. Each area should have a colour coded mop and bucket eg. Red for kitchen and dinning, blue for bathroom, green for hallways....\r\n2. Mop heads should have a cleaning schedule - ease refer to your organisational policy. \r\n3. Avoid having too many bubbles as this does not clean effectively. \r\n4. Use the wet floor sign to avoid the risk of someone slipping.\r\n• Meals areas should be cleaned after each use. Paying attention to table and chair legs.\r\n• Only use chemicals approved/provided by your organisation and ensure there is a COSHH sheet for it. \r\n• Ensure touch points are cleaned regularly throughout the day:\r\n    - door handles \r\n    - cupboard and drawer handles \r\n    - light switches\r\n    - door bell/knocker\r\n    - computer key boards\r\n    - telephones \r\n• Ensure there is an audit procedure in place to monitor the cleaning schedules.\r\n\r\nIn addition to the above there are further measures that must be considered \r\n• Correct bin used for correct rubbish - these include\r\n    - yellow bins with no black stripe - hazardous          waste\r\n    - yellow bin with black stripe - offensive waste\r\n    - purple/violet bins - cytotoxic waste\r\n    - sharps bins hard plastic  - needles\r\n    - orange bins - infectious waste\r\n    - black bins - domestic waste\r\n\r\nPop quiz!\r\nWhat is an orange bin used for?\r\nA. Infectious waste\r\nB. Cytotoxic waste",
+    "order": 2
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 22,
+  "fields": {
+    "course": 4,
+    "title": "What does the legislation say",
+    "description": "The Health and Social Care Act 2008 \r\n\r\nThis states that healthcare providers should use systems and risk assessments to manage, monitor, prevent and control infection. \r\n\r\nWhat does this mean?\r\nWell it means you must do all of what you have learned in thr previous sections. \r\n\r\nHealth and Safety at work activities 1974 \r\n\r\nThis puts a general duty on an employer to protect the health and safety of employees. However, staff will also have a duty to comply with infection control procedures and take appropriate action to protect themselves. \r\n\r\nThe Care Quality Commission (CQC) \r\nWill monitor this on inspection.",
+    "order": 3
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 23,
+  "fields": {
+    "course": 5,
+    "title": "Understand what fire safety is and how to minimise fire risks.",
+    "description": "",
+    "order": 0
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 24,
+  "fields": {
+    "course": 5,
+    "title": "What elements make a fire",
+    "description": "",
+    "order": 1
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 25,
+  "fields": {
+    "course": 5,
+    "title": "Understand what constitutes a fire hazard",
+    "description": "",
+    "order": 2
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 26,
+  "fields": {
+    "course": 5,
+    "title": "What legislation feeds into fire safety?",
+    "description": "",
+    "order": 3
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 27,
+  "fields": {
+    "course": 5,
+    "title": "How to evacuate a building.",
+    "description": "",
+    "order": 4
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 28,
+  "fields": {
+    "course": 5,
+    "title": "Different fire extinguishers, their colours and their uses.",
+    "description": "",
+    "order": 5
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 29,
+  "fields": {
+    "course": 6,
+    "title": "Regulations",
+    "description": "",
+    "order": 0
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 30,
+  "fields": {
+    "course": 6,
+    "title": "How to safely manoeuvre an individual",
+    "description": "",
+    "order": 1
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 31,
+  "fields": {
+    "course": 6,
+    "title": "How to safely move objects",
+    "description": "",
+    "order": 2
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 32,
+  "fields": {
+    "course": 6,
+    "title": "The Risks",
+    "description": "",
+    "order": 3
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 2,
+  "fields": {
+    "module": 9,
+    "content_type": 13,
+    "object_id": 1,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 3,
+  "fields": {
+    "module": 10,
+    "content_type": 13,
+    "object_id": 2,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 4,
+  "fields": {
+    "module": 11,
+    "content_type": 13,
+    "object_id": 3,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 6,
+  "fields": {
+    "module": 13,
+    "content_type": 13,
+    "object_id": 5,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 7,
+  "fields": {
+    "module": 14,
+    "content_type": 13,
+    "object_id": 6,
+    "order": 1
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 8,
+  "fields": {
+    "module": 3,
+    "content_type": 13,
+    "object_id": 7,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 9,
+  "fields": {
+    "module": 4,
+    "content_type": 13,
+    "object_id": 8,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 10,
+  "fields": {
+    "module": 7,
+    "content_type": 13,
+    "object_id": 9,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 11,
+  "fields": {
+    "module": 5,
+    "content_type": 13,
+    "object_id": 10,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 12,
+  "fields": {
+    "module": 6,
+    "content_type": 13,
+    "object_id": 11,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 13,
+  "fields": {
+    "module": 8,
+    "content_type": 13,
+    "object_id": 12,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 14,
+  "fields": {
+    "module": 15,
+    "content_type": 13,
+    "object_id": 13,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 15,
+  "fields": {
+    "module": 16,
+    "content_type": 13,
+    "object_id": 14,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 16,
+  "fields": {
+    "module": 17,
+    "content_type": 13,
+    "object_id": 15,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 17,
+  "fields": {
+    "module": 18,
+    "content_type": 13,
+    "object_id": 16,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 18,
+  "fields": {
+    "module": 19,
+    "content_type": 13,
+    "object_id": 17,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 19,
+  "fields": {
+    "module": 20,
+    "content_type": 13,
+    "object_id": 18,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 20,
+  "fields": {
+    "module": 21,
+    "content_type": 13,
+    "object_id": 19,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 21,
+  "fields": {
+    "module": 22,
+    "content_type": 13,
+    "object_id": 20,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 22,
+  "fields": {
+    "module": 23,
+    "content_type": 13,
+    "object_id": 21,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 25,
+  "fields": {
+    "module": 26,
+    "content_type": 13,
+    "object_id": 24,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 26,
+  "fields": {
+    "module": 27,
+    "content_type": 13,
+    "object_id": 25,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 30,
+  "fields": {
+    "module": 28,
+    "content_type": 13,
+    "object_id": 27,
+    "order": 2
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 32,
+  "fields": {
+    "module": 25,
+    "content_type": 13,
+    "object_id": 28,
+    "order": 2
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 38,
+  "fields": {
+    "module": 24,
+    "content_type": 13,
+    "object_id": 30,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 40,
+  "fields": {
+    "module": 19,
+    "content_type": 13,
+    "object_id": 31,
+    "order": 1
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 44,
+  "fields": {
+    "module": 12,
+    "content_type": 13,
+    "object_id": 32,
+    "order": 1
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 45,
+  "fields": {
+    "module": 30,
+    "content_type": 13,
+    "object_id": 33,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 46,
+  "fields": {
+    "module": 31,
+    "content_type": 13,
+    "object_id": 34,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 47,
+  "fields": {
+    "module": 29,
+    "content_type": 13,
+    "object_id": 35,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 48,
+  "fields": {
+    "module": 32,
+    "content_type": 13,
+    "object_id": 36,
+    "order": 0
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 1,
+  "fields": {
+    "owner": 2,
+    "title": "What is Mental Health",
+    "created": "2022-09-09T12:04:54.926Z",
+    "updated": "2022-10-11T10:41:40.821Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl text-lg\">\r\n    <div class=\"max-w-3xl mx-auto  p-4 text-slate-700  \">\r\n        <p class=\"text-xl\">Mental health is the state in which our mental health is functioning. Some people have good mental health whilst some people do not.<p class=\"font-bold my-2\"> Poor mental health can affect any person at anytime in their life.</p> <p>This could be a reaction or chemical response to a specific event in there life or it could be a build of smaller events of a period of time.</p>\r\n       <p>Understanding the above is <em>paramount</em> to building awareness and removing social stigma for those who experience poor mental health. \r\n            When people hear the term mental health there is an automatic assumption this is relating to someone experiencing poor mental health however, just like physical health, and when we talk about that, we don't just discuss it when it's bad, we discuss it when it's good and how we can prevent it from getting bad. The same needs to happen for your mental health. As the age old saying goes prevention is better than cure.\r\n            There are many factors that can impact our mental health both in positively and negatively and it is vital we understand what these are. For each person they can be different but there are some things which are constant in impacting.</p>\r\n        <h4 class=\"my-6 font-bold\">Some factors for positive mental health can be</h4>\r\n        <ul class=\"\">\r\n            <li class=\"my-2\">Having an outlet, sport, hobby, craft. Something that is just for you.</li>\r\n            <li class=\"my-2\">Learning to say no. A small but powerful word. Learning to say no can have such a healthy impact on your life both in your private life and your professional life. </li>\r\n            <li class=\"my-2\">Eating right. There is much evidence to show that eating healthy impacts positively on your mental state. </li>\r\n            <li class=\"my-2\">Excercise. This generates dopamine which is a feel good hormone. </li>\r\n        </ul>\r\n\r\n\r\n        <h4 class=\"my-6 font-bold \">Some negative factors include</h4>\r\n        <ul class=\"\">\r\n            <li class=\"my-2\"><b>Alcohol</b>- this is a depressant and actually lowers your mood. Block's out thoughts so gives the impression it is helping however all it does it compress the issue or issues someone is facing</li>\r\n            <li class=\"my-2\"><b>Caffeine</b>- excess caffeine increases the heart rate, this has a negative impact on your anxiety. </li>\r\n            <li class=\"my-2\"><b>Unhealthy diet</b> - you eat bad you feel bad</li>\r\n            <li class=\"my-2\"><b>Lack</b> of exercise </li>\r\n            <li class=\"my-2\"><b>Not creating time for yourself</b>, a hobby, craft, club, class.</li>\r\n        </ul>\r\n</div>\r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 2,
+  "fields": {
+    "owner": 2,
+    "title": "Who has Mental Health",
+    "created": "2022-09-09T12:05:37.581Z",
+    "updated": "2022-10-11T10:42:27.090Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow text-lg\">\r\n    <div class=\"max-w-3xl mx-auto  p-4 text-slate-700  \">\r\n        <p class=\"my-6\">\r\n\r\nWell the simple answer is everyone. Every single person on this planet has mental health just like every single person has physical health, and like physical health, mental health can both be Good and bad and varying levels of both. It can also fluctuate. </p>\r\nIt is normal to feel episodes of sadness or worry, it is when these take over your daily life, your capacity to do things, or  impacts upon your thoughts that it becomes poor mental health. \r\nStigma, although not as bad as it once was, still impacts on people with poor mental health. \r\nFor some, when they experience periods of poor mental health this may last a short while and for others it can be a prolonged experience. \r\nIt is important for us all to understand we all have mental health and that we need to care of it and recognise when it may be in need of extra care.\r\nIt is well documented that men are most at risk of taking their own life due to experiencing poor mental health. It is currently the largest cause of death for men under the age of 50. Although a lot of work has been done and continues to be done around removing stigma many men still feel that suffering poor mental health is a sign of weakness, makes them less of a man. This is simply not true. Mental Ill health is NOT a sign of weakness. Because of this feeling men are less likely to seek out support.\r\nFor women with poor mental health they are more likely to seek support from a doctor, counsellor, friend, someone who will listen. This does not mean women are not impacted to the point that they may end their life, it is just that women are better at seeking support. \r\n\r\n\r\n<h6>Activity</h6>\r\n<p>List 5 things that could be done to reduce social stigma around mental health.</p>\r\n<ul>\r\n<li>1.</li>\r\n<li>2.</li>\r\n<li>3.</li>\r\n<li>4.</li>\r\n<li>5.</li>\r\n</ul>\r\n\r\n\r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 3,
+  "fields": {
+    "owner": 2,
+    "title": "What does poor Mental Health look like?",
+    "created": "2022-09-09T12:06:21.653Z",
+    "updated": "2022-10-11T10:43:42.935Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl text-lg\">\r\n    <div class=\"max-w-3xl mx-auto  p-4 text-slate-700  \">\r\n        <div>\r\n            <p class=\"text-xl mb-2\"><b>Well it can look like me, it can look like you, it can look like someone with a sad face it can look like someone with a smile.</b></p>\r\n            <p class=\"mb-2\">The truth is poor mental health can take many forms and what it looks like doesn't fit one box.</p>\r\n            <p class=\"mb-2\"> There are however things you can look out for in loved ones, close friends, colleagues. It could be a change in behaviour, it could be not meeting up with friends or family at the last minute, someone isn't sleeping, someone not taking an interest in things they used to get enjoyment out of, someone having difficulty in concentrating on things, weight gain ,weight loss... </p>\r\n            <p class=\"mb-2\">The above does not automatically mean if someone experiences one or two or even three four of these that they are struggling with their mental health, what these are are some common indicators that people experience when going through a period of poor mental health. If you notice a friend, or family member starting to make excuses to not attend social events this can be annoying but rather than stop inviting them or getting annoyed, ask the question</p>\r\n            \r\n   \r\n            \r\n   <ul class=\"list-decimal p-6 \">\r\n       <li class=\"py-2 px-4 w-full  \">is everything OK?</li>\r\n       <li class=\"py-2 px-4 w-full \">Do you need to talk?</li>\r\n       <li class=\"py-2 px-4 w-full  \">I've noticed your not yourself at the minute, anything I can do?</li>\r\n   </ul>\r\n   <p class=\"border-8 border-dashed my-2 p-4 w-2/3 mx-auto text-center\">\r\n       You may be surprised by the answer.\r\n   </p>\r\n   <p>If experiencing poor mental health it is not always easy to open up dialogue with people about this, however, if asked by someone else it can make the start of that dialogue easier, less scary. Remember if you are struggling there are ways for you to get help. \r\n       <ul class=\"list-disc p-6\">\r\n           <li class=\"py-2 px-4 w-full  \">Samaritans 116 123</li>\r\n           <li class=\"py-2 px-4 w-full \">GP/Trained professional</li>\r\n           <li class=\"py-2 px-4 w-full  \">Speak to a friend or someone you trust</li>\r\n       </ul>\r\n      </p>\r\n   <div class=\"p-6 my-8  border-l-8 border-sky-900 bg-gradient-to-tr from-sky-900 to-sky-400 text-white\">\r\n          \r\n       <h1 class=\"my-6 text-center\"> Tick the correct answers.</h1>\r\n   \r\n       <div class=\"grid grid-cols-3 text-sm \">\r\n   \r\n       <div class=\"col-span-1\">\r\n           <p class=\"text-lg mb-2 \"> 1. Poor mental health looks the same in everyone........</p> \r\n           <div class=\"flex justify-center mt-12\">\r\n               <button class=\"border border-teal-200 p-4\" onclick=\"this.firstChild.classList.add('cross')\"><span></span>True</button>\r\n               <button class=\"border border-teal-200 p-4\" onclick=\"this.firstChild.classList.add('tick')\"><span></span>False</button>\r\n           </div>\r\n       </div>\r\n   \r\n       <div class=\"col-span-1\">\r\n           <p class=\"text-lg mb-2 \">2. It's easy to bring up the fact you are experiencing poor mental health........   </p> \r\n           <div class=\"flex justify-center mt-12\">\r\n               <button class=\"border border-teal-200 p-4\" onclick=\"this.firstChild.classList.add('cross')\"><span></span>True</button>\r\n               <button class=\"border border-teal-200 p-4\" onclick=\"this.firstChild.classList.add('tick')\"><span></span>False</button>\r\n           </div>\r\n       </div>\r\n   \r\n       <div class=\"col-span-1\">\r\n           <p class=\"text-lg mb-2 \"> 3. People with poor mental health rarely smile...........</p> \r\n           <div class=\"flex justify-center mt-12\">\r\n           <button class=\"border border-teal-200 p-4\" onclick=\"this.firstChild.classList.add('cross')\"><span></span>True</button>\r\n           <button class=\"border border-teal-200 p-4\" onclick=\"this.firstChild.classList.add('tick')\"><span></span>False</button>\r\n           </div>\r\n       </div>\r\n           \r\n       </div>\r\n       \r\n   </div>  \r\n\r\n          \r\n       </div>  \r\n    </div>\r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 5,
+  "fields": {
+    "owner": 2,
+    "title": "Spot the signs",
+    "created": "2022-09-09T12:08:23.441Z",
+    "updated": "2022-10-11T10:46:19.760Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl text-lg\">\r\n    <div class=\"max-w-3xl mx-auto  p-4\">\r\n<h3 class=\"font-bold text-center my-12\">How to spot the signs</h3>\r\n        <p class=\"mb-2\">As important as it is to know how to acheive good mental health, and what poor mental health is, it is also important to recognise in others; family, friends, colleagues, anyone you are close to, signs of mental health decline. In this Module we will discuss some possible indicators of some experiencing mental health decline. Please note that what we discuss are only some, more common signs and it is important that there are other indicators so if you suspect something is wrong - talk!</p>\r\n        <b>Someone who used to enjoy going out, socialising has now started declining invitations.</b> \r\n        <p class=\" my-2\">This can be outright but also last minute. This obviously doesn't mean just because someone doesn't fancy going out once or twice is experiencing a decline in their mental health they just may not fancy going out however, keep it in mind and if you think there is a problem create an open, non judgemental safe space to chat. </p>\r\n        <b>A lack of care in appearance and or hygiene.</b>\r\n        <p class=\" my-2\">When experiencing a decline in your mental health a person can begin to not take care of themselves. </p>\r\n        <b>Excessive alcohol use or increased use of alcohol. </b>\r\n        <p class=\" my-2\">People can sometimes drink as they feel it helps. In truth, alcohol is a depressant. It may feel like it helps as it can act a a blocker however this is not dealing with the issue or issues making you want to drink which then compounds the issue or issues potentially creating the ingredients for a perfect storm. Again, just because fancies the occasional drink does not indicate a problem.</p>\r\n        <b>If at work you have noticed</b>\r\n    <ul class=\"list-disc p-6\">\r\n        <li>Someone's performance drop</li>\r\n        <li>Regularly late to work</li>\r\n        <li>Standard of work has dropped off</li>\r\n        <li>Deadlines frequently being missed</li>\r\n        \r\n    </ul>\r\n    <b class=\"my-2\">These are just some potential indicators</b>\r\n    <p class=\" my-2\">Some more urgent signs to look out for.can be people making what could be seen as finalising arrangemts such as</p>\r\n    <ul class=\"list-disc p-6\">\r\n        <li>Getting there affairs in order</li>\r\n        <li>Talking in post humous language such as when I'm gone.</li>\r\n        <li>Appearing to say their goodbyes</li>\r\n        <li>Saying I'm going to take my life or kill myself.</li>\r\n    </ul>\r\n<div class=\"max-w-sm mx-auto border-dashed border-4 p-4\">There is a  common misconception that someone who says <q>I won't do it</q> will not. </div>\r\n<div class=\" my-4\"> This isn't true and needs to be debunked. It.can be a loud cry for help so offer help, a simple chat. Please note that only ever intervene to help someone if it is safe to do so and never put yourself in danger trying to help someone else. If an emergency always dial 999 before anything. The emergency services don't want to deal with two emergencies. </div>\r\n        <b>Activity List 5 signs someone may be experiencing a decline in their mental health.</b>\r\n        <ul class=\" my-2\">\r\n            <li>1...</li>\r\n            <li>2...</li>\r\n            <li>3...</li>\r\n            <li>4...</li>\r\n            <li>5...</li>\r\n        </ul>\r\n    </div>\r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 6,
+  "fields": {
+    "owner": 2,
+    "title": "Help",
+    "created": "2022-09-09T12:08:59.991Z",
+    "updated": "2022-10-11T10:47:57.212Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl text-lg\">\r\n    <div class=\"max-w-3xl mx-auto  p-4\">\r\n        <p class=\"text-xl my-12 text-center\">There are many resources out there to support with mental health. </p>\r\n       \r\n    <ul class=\"list-disc p-6 \">\r\n        <li>www.mind.org.uk </li>\r\n        <li>www.samaritans.org and 116 123 </li>\r\n        <li>TED talks</li>\r\n        <li>Mindfulness </li>\r\n        <li>Counselling </li>\r\n        <li>Gp's</li>\r\n        <li>Medications (I am not a medical professional and cannot recommend or list any here) please speak to a medical professional before starting any medical treatment. </li>\r\n        \r\n    </ul>\r\n  <div class=\"max-w-sm mx-auto border-8 border-dashed p-4\">\r\n    If you yourself are struggling please seek help that works for you. You are important. You matter. You are worth helping. \r\n  </div>\r\n\r\n  <p class=\" mt-4\">Thank you for taking the time to complete this short awareness course. I hope you have got something out of it whether it's how you view mental health, will promote this with friends, family, colleagues etc..., introduce something in the work place or look out for someone. </p>\r\n    </div>\r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 7,
+  "fields": {
+    "owner": 2,
+    "title": "What Safeguarding is.",
+    "created": "2022-09-09T12:20:12.969Z",
+    "updated": "2022-10-03T13:53:07.698Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl\">\r\n    <div class=\"max-w-3xl mx-auto  p-4 text-slate-700  \">\r\n        <div class=\"text-lg\">There is no quick answer to this. Safeguarding is an umbrella term used to describe all the things that are done around children, young people and adults at risk to ensure they stay safe from neglect, abuse or harm. This is things like knowing the people you care for, educate, teach an out of school class to, dance, martial art, drama... If in care, do they have a care plan FYI they should! What does this say about the person. What do they like, what don't they like, what can they do for themselves, what do they need help with, can they eat, drink, go to the bathroom, what level of support do they need? These are just some things you should know. If you get something wrong it could lead to the person sustaining an injury, lead them to choke, get more care then they need, or not enough care they need. These elements all form part of safeguarding. If working in education, they will possibly have a pastural support plan. This will indicate levels of support needed in the education environment to enable them to access their learning in the most effective way. Do the young people have specific risk assessments. How are they followed, reviewed,  and kept up to date and relevant. If any information is missing it could lead to an incident which could lead to a safeguarding concern. Safeguarding is everything we/you do to ensure children, young people and adults at risk stay safe from harm, identifying when things go wrong, and what safety measures can be put in place to prevent recurrence of the same issue. Safeguarding is knowing the children, young people or adult at risk and noticing changes in behaviour. Reporting injuries that are not explained but also recording injuries that are explained so they don't become a potential safeguarding concern. Safeguarding: everything done to look after the people we care for Safeguarding concern: reporting things when gone wrong.\r\n       </div>  \r\n    </div>\r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 8,
+  "fields": {
+    "owner": 2,
+    "title": "Who Needs Safeguarding",
+    "created": "2022-09-09T12:21:13.328Z",
+    "updated": "2022-10-03T13:54:04.951Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl\">\r\n    <div class=\"max-w-3xl mx-auto  p-4 text-slate-700  \">\r\n        <div class=\"text-lg\">\r\n\r\nChildren, young people, adults at risk and the elderly receiving care all need to be safeguarded from harm. There is a legal obligation placed on people within a position of power to safeguard the people they work with (for reference the term people they work means children,  young people and adults at risk). By Safeguarding the people they work with they are being proactive in preventing harm. If you suspect it report it. Think what if i'm right, not what if I'm wrong! Better to report it and it turn out to be nothing than not report it and turn out to be something. Remember what you are seeing or reportingay only be a small part of a much bigger puzzle and yours is the missing piece. There should be a responsible person for safeguarding where you are working- this person will likely be known as the DSL (DESIGNATED SAFEGUARDING LEAD) or Safeguarding Lead, Head of safeguarding, or something similar. This person is responsible for the managing of safeguarding concerns, however it is everyone's job to safeguard the people they work with. Safeguarding is everyone's responsibility.\r\n       </div>  \r\n    </div>\r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 9,
+  "fields": {
+    "owner": 2,
+    "title": "Know the Legislation.",
+    "created": "2022-09-09T12:22:40.723Z",
+    "updated": "2022-10-03T14:17:59.780Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl\">\r\n    <div class=\"max-w-3xl mx-auto  p-4 text-slate-700  \">\r\n        <div class=\"text-lg\">\r\n\r\n            The key legislations feeding into safeguarding are Keeping Children Safe in Education (KCSIE) anyone working with the education system is legally invited to read Appendix A. This legislation requires everyone's safeguarding refreshers to be completed in September, the start of the academic year. This ensures any changes are known. The children's act 2004. Under this legislation any suspicions of abuse, neglect or harm will lead to an enquiry under section 47 of this act. \r\n            \r\n            <ul class=\"list-decimal p-6 text-lg\">\r\n                <li>Allow children to be healthy</li>\r\n                <li>Help children to be happy and enjoy life</li>\r\n                <li>allowing children to remain safe in their environments</li>\r\n                <li>Help children to succeed </li>\r\n                <li>Help acheive economic stability for the future of children</li>\r\n                <li>Help make a positive contribution to children's lives.</li>\r\n                \r\n            </ul>\r\n            \r\n              <div class=\"flex items-center bg-sky-900 text-white text-sm font-bold px-4 py-3\" role=\"alert\">\r\n                <svg class=\"fill-current w-4 h-4 mr-2\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M12.432 0c1.34 0 2.01.912 2.01 1.957 0 1.305-1.164 2.512-2.679 2.512-1.269 0-2.009-.75-1.974-1.99C9.789 1.436 10.67 0 12.432 0zM8.309 20c-1.058 0-1.833-.652-1.093-3.524l1.214-5.092c.211-.814.246-1.141 0-1.141-.317 0-1.689.562-2.502 1.117l-.528-.88c2.572-2.186 5.531-3.467 6.801-3.467 1.057 0 1.233 1.273.705 3.23l-1.391 5.352c-.246.945-.141 1.271.106 1.271.317 0 1.357-.392 2.379-1.207l.6.814C12.098 19.02 9.365 20 8.309 20z\"/></svg>\r\n                <p>Working together to safeguard children DfE 2018</p>\r\n              </div>\r\n              <div class=\"flex items-center my-4 bg-sky-900 text-white text-sm font-bold px-4 py-3\" role=\"alert\">\r\n                <svg class=\"fill-current w-4 h-4 mr-2\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M12.432 0c1.34 0 2.01.912 2.01 1.957 0 1.305-1.164 2.512-2.679 2.512-1.269 0-2.009-.75-1.974-1.99C9.789 1.436 10.67 0 12.432 0zM8.309 20c-1.058 0-1.833-.652-1.093-3.524l1.214-5.092c.211-.814.246-1.141 0-1.141-.317 0-1.689.562-2.502 1.117l-.528-.88c2.572-2.186 5.531-3.467 6.801-3.467 1.057 0 1.233 1.273.705 3.23l-1.391 5.352c-.246.945-.141 1.271.106 1.271.317 0 1.357-.392 2.379-1.207l.6.814C12.098 19.02 9.365 20 8.309 20z\"/></svg>\r\n                <p>What to do if you're worried a child is being abused DfE 2015</p>\r\n              </div>\r\n              <div class=\"flex items-center my-4 bg-sky-900 text-white text-sm font-bold px-4 py-3\" role=\"alert\">\r\n                <svg class=\"fill-current w-4 h-4 mr-2\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M12.432 0c1.34 0 2.01.912 2.01 1.957 0 1.305-1.164 2.512-2.679 2.512-1.269 0-2.009-.75-1.974-1.99C9.789 1.436 10.67 0 12.432 0zM8.309 20c-1.058 0-1.833-.652-1.093-3.524l1.214-5.092c.211-.814.246-1.141 0-1.141-.317 0-1.689.562-2.502 1.117l-.528-.88c2.572-2.186 5.531-3.467 6.801-3.467 1.057 0 1.233 1.273.705 3.23l-1.391 5.352c-.246.945-.141 1.271.106 1.271.317 0 1.357-.392 2.379-1.207l.6.814C12.098 19.02 9.365 20 8.309 20z\"/></svg>\r\n                <p>The care act 2014. Under this legislation any suspicions of abuse, neglect or harm will lead to an enquiry under section 42 of this act. The care act feeds into adult care. </p>\r\n              </div>\r\n              <h1 class=\"my-6 font-bold\"> The key principles in this act are</1>\r\n                <ul class=\"list-disc p-6 text-lg\">\r\n                    <li>Empowerment </li>\r\n                    <li>Protection </li>\r\n                    <li>Prevention</li>\r\n                    <li>Proportionality </li>\r\n                    <li>Partnership </li>\r\n                    <li>Accountability</li>\r\n                   \r\n                </ul>\r\n                <div class=\"flex items-center bg-sky-900 text-white text-sm font-bold px-4 py-3\" role=\"alert\">\r\n                    <svg class=\"fill-current w-4 h-4 mr-2\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M12.432 0c1.34 0 2.01.912 2.01 1.957 0 1.305-1.164 2.512-2.679 2.512-1.269 0-2.009-.75-1.974-1.99C9.789 1.436 10.67 0 12.432 0zM8.309 20c-1.058 0-1.833-.652-1.093-3.524l1.214-5.092c.211-.814.246-1.141 0-1.141-.317 0-1.689.562-2.502 1.117l-.528-.88c2.572-2.186 5.531-3.467 6.801-3.467 1.057 0 1.233 1.273.705 3.23l-1.391 5.352c-.246.945-.141 1.271.106 1.271.317 0 1.357-.392 2.379-1.207l.6.814C12.098 19.02 9.365 20 8.309 20z\"/></svg>\r\n                    <p>Human rights act 1988</p>\r\n                  </div>\r\n                  <div class=\"flex items-center my-4 bg-sky-900 text-white text-sm font-bold px-4 py-3\" role=\"alert\">\r\n                    <svg class=\"fill-current w-4 h-4 mr-2\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M12.432 0c1.34 0 2.01.912 2.01 1.957 0 1.305-1.164 2.512-2.679 2.512-1.269 0-2.009-.75-1.974-1.99C9.789 1.436 10.67 0 12.432 0zM8.309 20c-1.058 0-1.833-.652-1.093-3.524l1.214-5.092c.211-.814.246-1.141 0-1.141-.317 0-1.689.562-2.502 1.117l-.528-.88c2.572-2.186 5.531-3.467 6.801-3.467 1.057 0 1.233 1.273.705 3.23l-1.391 5.352c-.246.945-.141 1.271.106 1.271.317 0 1.357-.392 2.379-1.207l.6.814C12.098 19.02 9.365 20 8.309 20z\"/></svg>\r\n                    <p>Sexual offences act 2003</p>\r\n                  </div>\r\n                  <div class=\"flex items-center my-4 bg-sky-900 text-white text-sm font-bold px-4 py-3\" role=\"alert\">\r\n                    <svg class=\"fill-current w-4 h-4 mr-2\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M12.432 0c1.34 0 2.01.912 2.01 1.957 0 1.305-1.164 2.512-2.679 2.512-1.269 0-2.009-.75-1.974-1.99C9.789 1.436 10.67 0 12.432 0zM8.309 20c-1.058 0-1.833-.652-1.093-3.524l1.214-5.092c.211-.814.246-1.141 0-1.141-.317 0-1.689.562-2.502 1.117l-.528-.88c2.572-2.186 5.531-3.467 6.801-3.467 1.057 0 1.233 1.273.705 3.23l-1.391 5.352c-.246.945-.141 1.271.106 1.271.317 0 1.357-.392 2.379-1.207l.6.814C12.098 19.02 9.365 20 8.309 20z\"/></svg>\r\n                    <p>Mental capacity act 2005 (dols)</p>\r\n                  </div>\r\n                  <div class=\"flex items-center bg-sky-900 text-white text-sm font-bold px-4 py-3\" role=\"alert\">\r\n                    <svg class=\"fill-current w-4 h-4 mr-2\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M12.432 0c1.34 0 2.01.912 2.01 1.957 0 1.305-1.164 2.512-2.679 2.512-1.269 0-2.009-.75-1.974-1.99C9.789 1.436 10.67 0 12.432 0zM8.309 20c-1.058 0-1.833-.652-1.093-3.524l1.214-5.092c.211-.814.246-1.141 0-1.141-.317 0-1.689.562-2.502 1.117l-.528-.88c2.572-2.186 5.531-3.467 6.801-3.467 1.057 0 1.233 1.273.705 3.23l-1.391 5.352c-.246.945-.141 1.271.106 1.271.317 0 1.357-.392 2.379-1.207l.6.814C12.098 19.02 9.365 20 8.309 20z\"/></svg>\r\n                    <p>   Safeguarding vulnerable groups act 2016 Equality act 2010</p>\r\n                  </div>\r\n                \r\n       </div>  \r\n    </div>\r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 10,
+  "fields": {
+    "owner": 2,
+    "title": "What is the difference between Safeguarding and Child Protection",
+    "created": "2022-09-09T12:23:51.229Z",
+    "updated": "2022-10-03T17:23:23.451Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl\">\r\n    <div class=\"max-w-3xl mx-auto  p-4 text-slate-700  \">\r\n        <div class=\"text-lg\">\r\n            \r\nAs we talked about before, safeguarding is everything we do around the chid/young person/adult at risk to prevent harm... Child protection is what happens when the above has failed or a concern reported needed to be escalated further. Child protection is when a child has come to harm and interventions are now required. Local authorities use models to help establish levels of support. \r\n\r\n<h1 class=\"my-6 font-bold\">Two common ones are</h1>\r\n<div class=\"bg-gray-50 rounded-lg py-5 px-6 mb-4 text-base text-gray-500 \" role=\"alert\">\r\n    <a href=\"https://www.signsofsafety.net/what-is-sofs/\">Signs of safety</a>\r\n  </div>\r\n  <div class=\"bg-gray-50 rounded-lg py-5 px-6 mb-4 text-base text-gray-500 \" role=\"alert\">\r\n    <a href=\"https://www.signsofsafety.net/what-is-sofs/\">Family level of need</a>\r\n  </div>\r\n\r\n   These models support the local authority in their decision making. Child protection will usually lead to further enquires, strategy meetings and a real focus on how to protect the child from further harm. Strategy meetings will include professionals that have worked with the family, eg health visitor, social worker, teacher, care home manager, police, doctor, and will be chaired by a specialist in this area. However, as this is only an understanding of safeguarding we won't go in to the details of this in this course.\r\n       </div>  \r\n    </div>\r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 11,
+  "fields": {
+    "owner": 2,
+    "title": "What are the differences between child and adult safeguarding.",
+    "created": "2022-09-09T12:24:58.159Z",
+    "updated": "2022-09-09T12:24:58.159Z",
+    "content": "At their grass roots the aim of both I'd ultimate same. Protecting people from any form of neglect abuse and harm. \r\n\r\nThe key differences really are; the legislation that feeds in to them. We touched on this earlier in terms of different legislation\r\nChildrens any 2004\r\nKeeping Children Safe in Education \r\nCare Act 2014 \r\n\r\nThere are other legislations however these are key ones. \r\n\r\nIn addition tonreporting concerns to the local authorty which is the same for both adults and children, Childrens safeguarding there is a team called the LADO this stands for local authority Designated officer. This team are notified when a professional is suspected of wrongdoing. There is no LADO for adults. \r\n\r\nThere are more differences however, again, as this is an understanding rather than qualification we won't go in to that here. This would be covered within tour local DSL training and what your local authority wants reporting to them."
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 12,
+  "fields": {
+    "owner": 2,
+    "title": "The different categories",
+    "created": "2022-09-09T12:25:41.071Z",
+    "updated": "2022-10-10T10:47:54.210Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl\">\r\n  \r\n<div class=\"grid grid-cols-3\">\r\n    <div class=\"col-span-1 tab bg-cyan-700  text-white\">\r\n        <button class=\"tablist\">physical</button>\r\n        <div id=\"physical\" class=\"tabcontent\">\r\n            <p>Legal Definition of physical abuse</p>\r\n        </div>\r\n        <button class=\"tablist\">emotional</button>\r\n        <div id=\"emotional\" class=\"tabcontent\">\r\n            <p>Legal Definition of emotional abuse</p>\r\n        </div>\r\n        <button class=\"tablist\">sexual</button>\r\n        <div id=\"sexual\" class=\"tabcontent\">\r\n            <h1 class=\"text-center text-xl\">Legal Definition of sexual abuse</h1>\r\n            <ul class=\"p-6 text-lg\">\r\n                <li>1a: the infliction of sexual contact upon a person by forcible compulsion</li>\r\n                <li>b: the engaging in sexual contact with a person who is below a specified age or who is incapable of giving consent because of age or mental or physical incapacity</li>\r\n                <li> 2: the crime of engaging in or inflicting sexual abuse</li>\r\n                \r\n                \r\n               </ul>\r\n                <cite class=\"text-sm\">“Sexual abuse.” Merriam-Webster.com Legal Dictionary, <a class=\"text-teal-200\" href=\"https://www.merriam-webster.com/legal/sexual%20abuse\">Merriam-Webster,</a> Accessed 7 Oct. 2022.</cite>\r\n        </div>\r\n        <button class=\"tablist\">Institutional</button>\r\n        <div id=\"emotional\" class=\"tabcontent\">\r\n            <p>Legal Definition of Institutional abuse</p>\r\n        </div>\r\n        <button class=\"tablist\">Domestic</button>\r\n        <div id=\"emotional\" class=\"tabcontent\">\r\n            <p>Legal Definition of Domestic abuse</p>\r\n        </div>\r\n        <button class=\"tablist\">Child Sexual exploitation</button>\r\n        <div id=\"emotional\" class=\"tabcontent\">\r\n            <p>Legal Definition of Child sexual exploitation abuse</p>\r\n        </div>\r\n        <button class=\"tablist\">Female genital mutilation</button>\r\n        <div id=\"emotional\" class=\"tabcontent\">\r\n            <p>Legal Definition of female genital mutilation abuse</p>\r\n        </div>\r\n        <button class=\"tablist\">County Line</button>\r\n        <div id=\"emotional\" class=\"tabcontent\">\r\n            <p>Legal Definition of county lines abuse</p>\r\n        </div>\r\n        <button class=\"tablist\">Cookooing</button>\r\n        <div id=\"emotional\" class=\"tabcontent\">\r\n            <p>Legal Definition of Cookooing abuse</p>\r\n        </div>\r\n        <button class=\"tablist\">Honour based violence</button>\r\n        <div id=\"emotional\" class=\"tabcontent\">\r\n            <p>Legal Definition of honour based violence abuse</p>\r\n        </div>\r\n        <button class=\"tablist\">Radicalisation</button>\r\n        <div id=\"emotional\" class=\"tabcontent\">\r\n            <p>Legal Definition of Radicalisation abuse</p>\r\n        </div>\r\n        <button class=\"tablist\">Child criminal exploitation</button>\r\n        <div id=\"emotional\" class=\"tabcontent\">\r\n            <p>Legal Definition of Radicalisation abuse</p>\r\n        </div>\r\n        <button class=\"tablist\">Neglect</button>\r\n        <div id=\"emotional\" class=\"tabcontent\">\r\n            <p>Legal Definition of neglect abuse</p>\r\n        </div>\r\n    </div>\r\n    <div class=\"col-span-2 p-6  \" id=\"contentEmpty\"></div>\r\n</div>\r\n<script>\r\n    document.addEventListener('DOMContentLoaded', ()=>{\r\n    const contentDiv = document.querySelector('#contentEmpty')\r\n   \r\n    const tabcontent = document.querySelectorAll('.tabcontent')\r\n    const tablist = document.querySelectorAll('.tablist')\r\n\r\n    tabcontent.forEach((el)=>{\r\n        el.style.display = 'none'\r\n         \r\n    });\r\n    tablist.forEach((btn) => {\r\n            btn.addEventListener('click', (e)=>{\r\n                contentDiv.innerHTML = \" \"\r\n                btn.classList.add('active')\r\n                const content = e.target.nextSibling.nextSibling.innerHTML\r\n                contentDiv.insertAdjacentHTML('beforeend', content)\r\n                contentDiv.classList.add('slideIn')     \r\n        }) \r\n    })\r\n     })\r\n</script>\r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 13,
+  "fields": {
+    "owner": 2,
+    "title": "Signs",
+    "created": "2022-09-09T12:26:28.381Z",
+    "updated": "2022-10-03T17:28:03.509Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl\">\r\n    <div class=\"max-w-3xl mx-auto  p-4 text-slate-700  \">\r\n        <div class=\"text-lg\">\r\n            If a child is or has been a victim of abuse there are some behaviours that may be an indicator to this. Please note though that if a child displays these behaviours it does not mean they have or are being abused or harmed there could be other reasons for this.\r\n            <ul class=\"list-disc p-6 text-lg\">\r\n                <li>Over familiarity with adults </li>\r\n                <li>Withdrawn behaviour from someone who was previously outgoing</li>\r\n                <li>Injuries to certain parts of body</li>\r\n                <li>Flinching when approached</li>\r\n                <li>Wanting to be covered up even in extreme heat </li>\r\n                <li>Failure to thrive</li>\r\n                <li>Low self esteem</li>\r\n                <li>Age inappropriate sexual behaviour </li>\r\n                <li>Eating disorders </li>\r\n                <li>Unexplained gifts or money</li>\r\n                <li>Bed wetting</li>\r\n                <li>Poor hygiene </li>\r\n                <li>Missed medical appointments </li>\r\n                <li>Poor growth</li>\r\n                <li>Poor attendance </li>\r\n                \r\n            </ul>\r\n            \r\n            <div class=\"max-w-sm mx-auto border-8 border-dashed p-4 text-lg text-center\">\r\n                There are many more. Have a think why the above are indicators and complete a sentence for each explaining your thoughts.\r\n            </div> \r\n            \r\n           \r\n\r\n\r\n       </div>  \r\n    </div>\r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 14,
+  "fields": {
+    "owner": 2,
+    "title": "If you have a concern",
+    "created": "2022-09-09T12:27:15.969Z",
+    "updated": "2022-10-03T17:45:32.724Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl\">\r\n    <div class=\"max-w-3xl mx-auto  p-4 text-slate-700  \">\r\n        <div class=\"text-lg\">\r\n            <div class=\"w-full  mx-auto\">\r\n                <div class=\"flex p-5 rounded-lg shadow bg-white\">\r\n                  <div>\r\n                    <svg class=\"w-6 h-6 fill-current text-red-500\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M0 0h24v24H0V0z\" fill=\"none\"/><path d=\"M12 5.99L19.53 19H4.47L12 5.99M12 2L1 21h22L12 2zm1 14h-2v2h2v-2zm0-6h-2v4h2v-4z\"/></svg>\r\n                  </div>\r\n                  <div class=\"ml-3\">\r\n                    <h2 class=\"font-semibold text-gray-800\">Report it. Do not keep it to yourself.</h2>\r\n                    <p class=\"mt-2 text-md text-gray-600 leading-relaxed\">Repert it to the DSL in your work place if you have one. Call your local authority. Call the police. Call the NSPCC. </p>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n             \r\n            \r\n            <div class=\"max-w-4xl mx-auto border-8 border-dashed p-4 text-lg text-center mt-6\">\r\n                The worst thing you can do is to do nothing. Have the mindset What if I'm right. Don't think what if I'm wrong. If your workplace has a procedure then follow that.\r\n            </div> \r\n            \r\n           \r\n\r\n\r\n       </div>  \r\n    </div>\r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 15,
+  "fields": {
+    "owner": 2,
+    "title": "Models Used",
+    "created": "2022-09-09T12:28:08.524Z",
+    "updated": "2022-09-09T12:28:08.524Z",
+    "content": "Two common models used are \r\n\r\n1. Signs of safety \r\n\r\n2. Family resilience and level of need. \r\n\r\nThese models help support the local authority to make the best decisions regarding the safety of children, young people, adults at risk and the elderly."
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 16,
+  "fields": {
+    "owner": 2,
+    "title": "Case Studies",
+    "created": "2022-09-09T12:29:30.084Z",
+    "updated": "2022-09-09T12:29:30.084Z",
+    "content": "Please take the time to read look up and read the case studies below. \r\n\r\nEach case lead to a serious case review. \r\n\r\nPlease ensure self care. They do not make for easy reading. Take a break when you need to. \r\n\r\nThe case studies highlight the need for us to be proactive in Safeguarding. \r\n\r\n1. Victoria Climbie \r\n\r\n2. Baby P \r\n\r\n3. Chadruck Mbala Mulo \r\n\r\nPlease list some common themes throughout all of these."
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 17,
+  "fields": {
+    "owner": 2,
+    "title": "Infection, protection, prevention, and control",
+    "created": "2022-09-21T15:28:15.907Z",
+    "updated": "2022-10-11T10:36:28.481Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl\">\r\n    <div class=\"max-w-3xl mx-auto  p-4 \">\r\n        <div class=\"text-lg\">\r\n            \r\n             \r\n            \r\n            <div class=\"max-w-4xl mx-auto border-8 border-dashed p-4 text-center mt-6\">\r\n                Infection, protection, prevention, and control is about minimising the risks of infections spreading, and therefore people becoming unwell. \r\n            </div> \r\n            <h1 class=\"my-6 font-bold\">There are many ways in with infections can spread.</h1>\r\n            <ul class=\"list-disc p-6 \">\r\n                <li>Poor hand hygiene</li>\r\n                <li>Poor and infective cleaning regimes</li>\r\n                <li>Cross contamination </li>\r\n                <li>Touch </li>\r\n                <li>Coughing</li>\r\n                <li>Sneezing </li>\r\n                <li>Needle stick injuries</li>\r\n                <li>Bites</li>\r\n                <li>Scratches</li>\r\n            </ul>\r\n            <div class=\"w-full  mx-auto\">\r\n                <div class=\"flex p-5 rounded-lg shadow bg-white\">\r\n                  <div>\r\n                    <svg class=\"w-6 h-6 fill-current text-red-500\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M0 0h24v24H0V0z\" fill=\"none\"/><path d=\"M12 5.99L19.53 19H4.47L12 5.99M12 2L1 21h22L12 2zm1 14h-2v2h2v-2zm0-6h-2v4h2v-4z\"/></svg>\r\n                  </div>\r\n                  <div class=\"ml-3\">\r\n                   \r\n                    <p class=\"mt-2\">The care industry is a hive of infections waiting to be spread and without good practices, it will.  </p>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n\r\n              <p class=\"my-8\">Good infection control starts with you, your practices. \r\n                It is important to protect against all causes and sources of infection. \r\n                \r\n                If you have a wound then this needs to be covered with a plaster. \r\n                \r\n                If supporting somebody with a wound then appropriate PPE needs to be worn, such as gloves, aprons... \r\n                </p>\r\n\r\n\r\n       </div>  \r\n    </div>\r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 18,
+  "fields": {
+    "owner": 2,
+    "title": "Control is Prevention.",
+    "created": "2022-09-21T15:28:59.664Z",
+    "updated": "2022-10-11T10:38:09.933Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl\">\r\n    <div class=\"max-w-3xl mx-auto  p-4 text-slate-700  \">\r\n        <div class=\"text-lg\">\r\n            By controlling you are preventing, which is protecting you, your colleagues and the people you care for from the risk of infection. Due to the nature of the job you do, the people you provide care to are likely to be vulnerable and their immune systems may be weakened. Whilst it is important to maintain good levels of hygiene at all times both at work and at home, due to the client group you work with it is not just important but a legal regulatory requirement to ensure you have good infection, protection and prevention controls in place. \r\n            \r\n            <div class=\"my-6 max-w-2xl mx-auto border-8 border-dashed p-4 text-lg text-center\">To summarise - infection protection and prevention controls are important because </div>\r\n                <ul class=\"max-w-2xl mx-auto list-disc p-6 text-lg\">\r\n                    <li>The client group you work with are likely vulnerable and therefore more susceptible to severe illness from infection. </li>\r\n                    <li>It is a legal and regulatory requirement  </li>\r\n                  \r\n                </ul>\r\n           \r\n           \r\n            \r\n           \r\n    <div class=\"p-6 my-8  border-l-8 border-sky-900 bg-gradient-to-tr from-sky-900 to-sky-400 text-white\">\r\n            <h1 class=\"my-6 font-bold\">Pop quiz!</h1> \r\n            <p class=\"text-lg mb-2\">What are the two main reasons infection protection, prevention controls are important?</p> \r\n           \r\n\r\n            <h1 class=\"my-6 text-center\"> Tick the two correct answers. </h1>\r\n            <div class=\"grid grid-cols-3 text-sm \">\r\n                <button class=\"border-r-2 border-teal-200 p-2\" onclick=\"this.firstChild.classList.add('tick')\"><span></span>A. The client group you work with are likely vulnerable and therefore more susceptible to severe illness from infection.</button>\r\n\r\n                <button class=\"border-r-2 border-teal-200 p-2\" onclick=\"this.firstChild.classList.add('cross')\"><span></span>B. You boss asked you </button>\r\n\r\n                <button class=\" p-2\" onclick=\"this.firstChild.classList.add('tick')\"><span></span>C. It is a legal and regulatory requirement</button>\r\n            </div>\r\n            \r\n    </div>       \r\n             \r\n       </div>  \r\n    </div>\r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 19,
+  "fields": {
+    "owner": 2,
+    "title": "What you can do",
+    "created": "2022-09-21T15:33:12.442Z",
+    "updated": "2022-10-11T10:40:18.485Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl text-lg\">\r\n    <div class=\"max-w-3xl mx-auto  p-4 text-slate-700  \">\r\n        <div>\r\n            <h1 class=\"my-6 font-bold\">There are a number of things you must do to ensure you maintain good infection protection, prevention controls. </h1>\r\n            <ul class=\"list-disc p-6\">\r\n                <li>Good and regular hand washing </li>\r\n                <li>Hand washing before and after supporting a client </li>\r\n                <li>Use of correct PPE</li>\r\n                <li>Correct gloves for correct task. </li>\r\n                <li>Effective cleaning regimes throughout the day. </li>\r\n                <h2 class=\"mt-4\">Dusting you should firstly</h2>\r\n                <ol class=\"list-decimal p-6 \">\r\n                    \r\n                    <li>Damp dust</li>\r\n                    <li>Start from the cleaner area moving to the dirtier area</li>\r\n                </ol> \r\n                <h2 class=\" mt-4\">Mopping</h2>\r\n                <ol class=\"list-decimal p-6\">\r\n                    \r\n                    <li>Each area should have a colour coded mop and bucket eg. Red for kitchen and dinning, blue for bathroom, green for hallways....</li>\r\n                    <li>Mop heads should have a cleaning schedule - ease refer to your organisational policy. </li>\r\n                    <li>Avoid having too many bubbles as this does not clean effectively. </li>\r\n                    <li>Use the wet floor sign to avoid the risk of someone slipping.</li>\r\n                </ol> \r\n            </ul>\r\n            <ul class=\"list-disc p-6 \">\r\n                <li>Meals areas should be cleaned after each use. Paying attention to table and chair legs. </li>\r\n                <li>Only use chemicals approved/provided by your organisation and ensure there is a COSHH sheet for it. </li>\r\n                <li>Ensure touch points are cleaned regularly throughout the day:</li>\r\n                <ol class=\"list-decimal p-6 \">\r\n                    \r\n                    <li>door handles </li>\r\n                    <li>cupboard and drawer handles </li>\r\n                    <li>light switches </li>\r\n                    <li>door bell/knocker</li>\r\n                    <li>computer key boards</li>\r\n                    <li>telephones </li>\r\n                </ol> \r\n            </ul>\r\n\r\n            <h2 class=\" mt-4\">Ensure there is an audit procedure in place to monitor the cleaning schedules.</h2>\r\n            <h2 class=\"mt-4\">In addition to the above there are further measures that must be considered </h2>\r\n            <h2 class=\"mt-4\">Correct bin used for correct rubbish - these include</h2>\r\n            <ol class=\"list-decimal p-6\">\r\n                <li>yellow bins with no black stripe - hazardous waste</li>\r\n                <li>yellow bin with black stripe - offensive waste</li>\r\n                <li>purple/violet bins - cytotoxic waste</li>\r\n                <li>sharps bins hard plastic needles</li>\r\n                <li>orange bins - infectious waste</li>\r\n                <li>black bins - domestic waste</li>\r\n            </ol> \r\n\r\n            <div class=\"p-6 my-8  border-l-8 border-sky-900 bg-gradient-to-tr from-sky-900 to-sky-400 text-white\">\r\n                    <h1 class=\"my-6 font-bold\">Pop quiz!</h1> \r\n                    <p class=\" mb-2\">What is an orange bin used for?</p> \r\n                    <h1 class=\"my-6 text-center\"> Tick the correct answers. </h1>\r\n                    <div class=\"grid grid-cols-2 \">\r\n                        <button class=\"border-r-2 border-teal-200 p-2\" onclick=\"this.firstChild.classList.add('tick')\"><span></span>A. Infectious waste</button>\r\n                        <button class=\" p-2\" onclick=\"this.firstChild.classList.add('cross')\"><span></span>B. Cytotoxic waste</button>\r\n                    </div>\r\n            </div>       \r\n             \r\n       </div>  \r\n    </div>\r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 20,
+  "fields": {
+    "owner": 2,
+    "title": "Legislation",
+    "created": "2022-09-21T15:33:44.090Z",
+    "updated": "2022-10-04T11:53:40.908Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl\">\r\n    <div class=\"max-w-3xl mx-auto  p-4 text-slate-700  \">\r\n        <div class=\"text-lg\">\r\n            <h1 class=\"my-6 font-bold\">The Health and Social Care Act 2008 </h1>\r\n                \r\n\r\n                This states that healthcare providers should use systems and risk assessments to manage, monitor, prevent and control infection. \r\n                \r\n                What does this mean?\r\n                Well it means you must do all of what you have learned in the previous sections. \r\n                \r\n                <h1 class=\"my-6 font-bold\">Health and Safety at work activities 1974 </h1>\r\n                \r\n                This puts a general duty on an employer to protect the health and safety of employees. However, staff will also have a duty to comply with infection control procedures and take appropriate action to protect themselves. \r\n                \r\n                <div class=\"max-w-sm mx-auto border-8 border-dashed p-4 text-lg text-center\">\r\n                    <b>The Care Quality Commission (CQC) </b>\r\n                    Will monitor this on inspection.\r\n                </div> \r\n                \r\n                \r\n       </div>  \r\n    </div>\r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 21,
+  "fields": {
+    "owner": 2,
+    "title": "Understand what fire safety is and how to minimise fire risks.",
+    "created": "2022-09-21T15:37:32.387Z",
+    "updated": "2022-10-11T10:30:25.003Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl text-lg\">\r\n    <div class=\"max-w-3xl mx-auto  p-4 text-slate-700  \">\r\n        \r\n       \r\n         <div class=\"max-w-lg mx-auto border-8 border-dashed p-4\">\r\n            Fire safety is what we do each and everyday to minimise the risk of a fire occurring.\r\n        </div>\r\n \r\n  <h1 class=\"my-6 font-bold\">Checking fire exits are free from obstruction</h1> \r\n  <p class=\"mb-2\">Fire exits should never have anything in the way of them. They should be free from obstruction so in the event of a fire people can exit the building safely. </p>\r\n  \r\n  <h1 class=\"my-6 font-bold\">Noting any scorch/burn marks on plugs and reporting this</h1>\r\n  <p class=\"mb-2\">Scorch marks or burn marks on plugs can indicate there is a fault causing the socket to overheat which could lead to a fire. If you see this. Remove the item and report it to your line manager. </p>\r\n  \r\n  <h1 class=\"my-6 font-bold\">Checking bins are emptied regularly </h1>\r\n  <p class=\" mb-2\">Full bins pose more a a fire hazard than empty bins. This is due to a full bin would give more fuel for the fire to burn.</p>\r\n  \r\n  \r\n  <h1 class=\"my-6 font-bold\">Visual checks on emergency lighting to ensure it is working</h1>\r\n  \r\n  \r\n  <h1 class=\"my-6 font-bold\">Checking the fire panel for faults </h1>\r\n  <p class=\" mb-2\">If a fault is showing report this immediately to your line manager.</p>\r\n  \r\n  \r\n  <h1 class=\"my-6 font-bold\">Ensuring corridors are free from obstruction</h1>\r\n  <p class=\" mb-2\">This could cause a delay in getting out the building. Corridors and escape routes should be free from obstruction at all times. </p>\r\n  \r\n  \r\n  <h1 class=\"my-6 font-bold\">All people in the service should have a PEEP (PERSONAL EMERGENCY EVACUATION PLAN) </h1>\r\n  <p class=\" mb-2\">This details the specifics for each individual on how they need to be supported to evacuate in the event of an emergency such as a fire.</p>\r\n  \r\n  \r\n  <h1 class=\"my-6 font-bold\">All staff should know where the alarm points are and where to evacuate to.</h1>\r\n  <p class=\" mb-2\">If you don't know where the alarm points are you will not be as quick in raising the alarm if you see a fire. This would cause a delay for everyone needing to evacuate the building.</p>\r\n  \r\n  \r\n  <h1 class=\"my-6 font-bold\">Fire doors should be kept shut and never propped open. </h1>\r\n  <p class=\" mb-2\">Fire doors offer approximately thirty minutes of protection form a fire and smoke. This gives people more time to safely evacuate. If propped open they will not shut when the alarm is raised causing the fire and smoke to spread much quicker. </p>\r\n  \r\n  \r\n  <h1 class=\"my-6 font-bold\">Regular alarm tests should be carried out to ensure the alarms are working, and the fire doors that are on an automatic release close.</h1>\r\n  <p class=\" mb-2\">If any faults noted they must be reported as per your company/organisational policy</p>\r\n  \r\n  \r\n  <h1 class=\"my-6 font-bold\">Fire evacuation drills</h1>\r\n  <p class=\" mb-2\">These are cometed to highlight any areas of concern with evacuating to be addressed so that if you need to evacuate for real then this will be as smooth as possible. Additionally it supports people to get used to what the alarm sounds like and to recognise that they need to evacuate the building.</p>\r\n  \r\n  \r\n  <h1 class=\"my-6 font-bold\">Checks of fire fighting equipment </h1>\r\n  <p class=\" mb-2\">These should be checked by a person who is trained to do so. </p>\r\n  \r\n  \r\n  <h1 class=\"my-6 font-bold\">Lighting checks</h1>\r\n  <p class=\" mb-2\">Does the emergency lighting work? If not report it. You need to be able to see where you are going in the event of a fire.</p>\r\n  \r\n</div> \r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 24,
+  "fields": {
+    "owner": 2,
+    "title": "What legislation feeds into fire safety?",
+    "created": "2022-09-21T15:39:16.279Z",
+    "updated": "2022-10-11T10:31:40.604Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl\">\r\n     <div id=\"law\"  >\r\n        <h1 class=\"text-center font-bold text-2xl my-4 \">The Regulatory reform (fire safety) order (2005)</h1>\r\n        <p class=\"flex items-center font-bold  p-2 bg-inherit\" >\r\n        This puts a legal duty on anyone with a level of control to do what they can to reduce the risk of fire and makes sure people can escape.</p>\r\n       \r\n    </div>\r\n    <div class=\"max-w-3xl my-6 mx-auto text-slate-700 text-lg\">\r\n        <h1 class=\"text-center font-bold text-2xl my-4 \">How does this impact you?</h1>\r\n        <p class=\"flex items-center font-bold  p-2 bg-inherit\" > It says anyone with a level of control must do what they can to reduce the risk of fire and make sure people can escape.<br>\r\n            This would include but not limited to\r\n            </p>\r\n        <ul class=\"list-disc\">\r\n        <li>The fire escapes been kept clear </li>\r\n        <li>Risk assessments completed</li>\r\n        <li>PEEPS are in place</li>\r\n        <li>Checks on appliances and plugs for signs of damage </li>\r\n        <li>Completing the Regulatory fire checks within your building</li>\r\n        <li>External bins not too close to the property </li>\r\n        <li>Internal bins emptied regularly</li>\r\n        <li>All staff in daye with training</li>\r\n        <li>If there is a member of your team.who may require additional assistance to evacuate then they should be a plan</li>\r\n        </ul>\r\n    </div>\r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 25,
+  "fields": {
+    "owner": 2,
+    "title": "How to evacuate a building.",
+    "created": "2022-09-21T15:40:17.036Z",
+    "updated": "2022-10-04T07:11:23.926Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl\">\r\n    <div class=\"max-w-3xl mx-auto  p-4 text-slate-700  \">\r\n        \r\n        \r\n          <div class=\"text-lg\">On discovering a fire it is vital you know what the next procedure is. Each workplace will have a fire evacuation plan and this can be different in different buildings. Some buildings you may do a horizontal evacuation. This is where, if the fire is in one part of the building and everyone else is in another, providing there are fire doors between you and a fire exit accessible to you, so can move to this part of the building whilst maybe waiting for support to evacuate safely. As a rule though it would be better to get out ASAP if safe to to do so.</div>\r\n         \r\n          <h1 class=\"my-6 font-bold text-center\">The basics though of what actions to take upon seeing a fire are as follows</h1> \r\n          <ul class=\"list-disc p-6 text-lg\">\r\n            <li>Raise the alarm </li>\r\n            <li>If there is a fire door between the fire and yourself you should close this if safe to do so. </li>\r\n            <li>Ensure all on duty know this is not a drill.</li>\r\n            <li>Call the fire and rescue service on 999. Give them the address and make sure they repeat it back to you before you hang up.  </li>\r\n            <li>Once outside take a roll call to ensure everyone is accounted for.</li>\r\n            <li>You must be given the all clear before being able to re-enter the premises.</li>\r\n            \r\n        </ul>\r\n     \r\n    </div> \r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 27,
+  "fields": {
+    "owner": 2,
+    "title": "Different fire extinguishers",
+    "created": "2022-09-21T18:16:38.297Z",
+    "updated": "2022-10-03T13:30:05.259Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl\">\r\n    <div class=\"max-w-3xl mx-auto  p-4 text-slate-700  \">\r\n        <div class=\"text-lg\">If you look around your place of work you are likely to see different fire extinguishers, different in size, colour, and what they can be used for. Here we will discuss what these differences are and what they mean for you.</div>\r\n        <div class=\"max-w-sm mx-auto border-8 border-dashed p-4 my-6\">\r\n            The colours are • Red • Black • Blue • Yellow • Cream\r\n        </div>  \r\n\r\n        <div class=\"max-w-sm mx-auto my-6\" >\r\n            <img src=\"/media/images/ex.png\">\r\n        </div> \r\n        <h1 class=\"my-6 font-bold text-center\">As you can see by the diagram</h1>\r\n        <ul class=\"list-none p-6 text-lg\">\r\n            <li class=\"my-4\">\r\n                <div class=\"bg-red-100 border-t-4 border-red-500 rounded-b text-teal-900 px-4 py-3 shadow-md\" role=\"alert\">\r\n                <div class=\"flex\">\r\n                  <div class=\"py-1\"><svg class=\"fill-current h-6 w-6 text-red-500 mr-4\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z\"/></svg></div>\r\n                  <div>\r\n                    <p class=\"font-bold\">Red is water and is to be used on wood, paper and textiles.</p>\r\n                    <p class=\"text-sm\">It is not suitable for electrical or flammable liquids</p>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </li>\r\n\r\n            <li class=\"my-4\">\r\n                <div class=\"bg-gray-600 text-white border-t-4 border-gray-500 rounded-b px-4 py-3 shadow-md\" role=\"alert\">\r\n                <div class=\"flex\">\r\n                  <div class=\"py-1\"><svg class=\"fill-current h-6 w-6 text-white mr-4\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z\"/></svg></div>\r\n                  <div>\r\n                    <p class=\"font-bold\">Black is a carbon dioxide extinguisher.</p>\r\n                    <p class=\"text-sm\">It is not suitable for combustible materials like wood and paper, deep fat fryers, flammable gases like butane, flammable materials.like lithium and potassium.</p>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </li>\r\n        \r\n            <li class=\"my-4\">\r\n                <div class=\"bg-blue-100 border-t-4 border-blue-500 rounded-b text-teal-900 px-4 py-3 shadow-md\" role=\"alert\">\r\n                <div class=\"flex\">\r\n                  <div class=\"py-1\"><svg class=\"fill-current h-6 w-6 text-blue-500 mr-4\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z\"/></svg></div>\r\n                  <div>\r\n                    <p class=\"font-bold\">Blue is a dry powder and is for use on all fires apart from deep dat fryers/chip pans.</p>\r\n                    <p class=\"text-sm\">It is only suitable on electrical fires up to 1000 volts.</p>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </li>\r\n\r\n            <li class=\"my-4\">\r\n                <div class=\"bg-yellow-100 border-t-4 border-yellow-500 rounded-b text-teal-900 px-4 py-3 shadow-md\" role=\"alert\">\r\n                <div class=\"flex\">\r\n                  <div class=\"py-1\"><svg class=\"fill-current h-6 w-6 text-yellow-500 mr-4\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z\"/></svg></div>\r\n                  <div>\r\n                    <p class=\"font-bold\">Yellow is a wet chemical and can only be used on combustible materials such as paper and wood and deep fat fryers. </p>\r\n                    <p class=\"text-sm\">It is not suitable for any other fire.</p>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </li>\r\n\r\n            <li class=\"my-4\">\r\n                <div class=\"bg-orange-50 border-t-4 border-cream rounded-b text-teal-900 px-4 py-3 shadow-md\" role=\"alert\">\r\n                <div class=\"flex\">\r\n                  <div class=\"py-1\"><svg class=\"fill-current h-6 w-6 text-teal-900 mr-4\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z\"/></svg></div>\r\n                  <div>\r\n                    <p class=\"font-bold\">Cream is a foam based extinguisher and is for use on combustible materials and flammable liquids.  </p>\r\n                    <p class=\"text-sm\"> It is not suitable for any other fire.</p>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </li>\r\n            \r\n        </ul>\r\n        <h1 class=\"my-6 font-bold\"><b>Please note:</b> you should only ever use a fire extinguisher if it is safe to do so and you have been given the training to do so.</h1>\r\n        <h2 class=\"my-4 font-medium\">The acronym for using a fire extinguisher is</h2>\r\n        <ul class=\"list-disc p-6 text-lg\">\r\n            <li>P - pull, you pull the pin </li>\r\n            <li>A - aim, you aim it at the base of the fire </li>\r\n            <li>S - squeeze, squeeze the extinguisher handle</li>\r\n            <li>S - sweep, use a sweeping motion. </li>  \r\n        </ul>\r\n             \r\n        </div>\r\n         \r\n         \r\n    </div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 28,
+  "fields": {
+    "owner": 2,
+    "title": "Understand what constitutes a fire hazard",
+    "created": "2022-09-21T18:23:16.705Z",
+    "updated": "2022-10-06T09:44:48.640Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl\">\r\n    <div class=\"max-w-3xl mx-auto  p-4 text-slate-700  \">\r\n        <div class=\"text-lg\">\r\n\r\n            <div class=\"grid sm:grid-cols-3 border max-w-md  mb-6 shadowScroll\">\r\n                <div class=\"sm:border-r sm:m-2 p-2\" ><img src=\"/media/images/plug.png\"></div>\r\n    \r\n                <div class=\"col-span-2 p-6 text-lg\">Damaged cables, sockets or plugs<br><span>Other risks include this being a source of heat.</span></div>\r\n               \r\n            </div>\r\n            <div class=\"grid sm:grid-cols-3 border max-w-md shadow-sm mb-6 shadowScroll\">\r\n                <div class=\"border-r m-2 \" ><img src=\"/media/images/bin.jpg\"></div>\r\n    \r\n                <div class=\"col-span-2 p-6 text-lg\">Full bins This provides a potential fuel source </div>\r\n            </div>\r\n            <div class=\"grid sm:grid-cols-3 border max-w-md shadow-sm mb-6 shadowScroll\">\r\n                <div class=\"border-r m-2 \" ><img src=\"/media/images/door.png\"></div>\r\n    \r\n                <div class=\"col-span-2 p-6 text-lg\">Escape routes that are blocked Stops people being able to safely evacuate a building</div>\r\n            </div>\r\n            <div class=\"grid sm:grid-cols-3 border max-w-md shadow-sm mb-6 shadowScroll\">\r\n                <div class=\"border-r m-2 \" ><img src=\"/media/images/alarm.png\"></div>\r\n    \r\n                <div class=\"col-span-2 p-6 text-lg\">Alarms not working Unable to alert people that there is a fire</div>\r\n            </div>\r\n            <div class=\"grid sm:grid-cols-3 border max-w-md shadow-sm mb-6 shadowScroll\">\r\n                <div class=\"border-r m-2 \" ><img src=\"/media/images/bins.jpg\" alt=\"\"></div>\r\n    \r\n                <div class=\"col-span-2 p-6 text-lg\">External bins too close to the property This could be a potential place for an arsonist to start a fire and could lead to the property becoming on fire.</div>\r\n            </div>\r\n            <div class=\"grid sm:grid-cols-3 border max-w-md shadow-sm mb-6 shadowScroll\">\r\n                <div class=\"border-r m-2 \" ><img src=\"/media/images/emer.png\" alt=\"\"></div>\r\n    \r\n                <div class=\"col-span-2 p-6 text-lg\">Emergency lights not working This has the potential to hinder the evacuation of people.</div>\r\n            </div>\r\n        \r\n            <div class=\"grid grid-col-1 sm:grid-cols-3 border max-w-md shadow-sm mb-6 shadowScroll\">\r\n                <div class=\"border-r m-2 \" ><img src=\"/media/images/prop.png\" alt=\"fire door open\"></div>\r\n    \r\n                <div class=\"col-span-2 p-6 text-lg\">Fire doors that have been propped open This enables the fire and smoke to spread</div>\r\n            </div>\r\n            <div class=\"max-w-2xl mx-auto border-8 border-dashed p-4 text-lg text-center\">\r\n                Other points to consider include but not limited to are<br>\r\n                <ul class=\"list-none\">\r\n                    <li>Know your residents PEEPS</li>\r\n                    <li>Know your escape route</li>\r\n                    <li>Know your meeting point</li>\r\n                    <li>When dialling 999 ask for the fire service and give them the address.</li>\r\n                    <li><b>(You should make sure this is repeated back to you before hanging up.) </b></li>\r\n                </ul>\r\n                <b></b>\r\n            </div> \r\n            \r\n            \r\n              \r\n              <div class=\"w-full  mx-auto mt-6\">\r\n                <div class=\"flex p-5 rounded-lg shadow bg-white\">\r\n                  <div>\r\n                    <svg class=\"w-6 h-6 fill-current text-red-500\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M0 0h24v24H0V0z\" fill=\"none\"/><path d=\"M12 5.99L19.53 19H4.47L12 5.99M12 2L1 21h22L12 2zm1 14h-2v2h2v-2zm0-6h-2v4h2v-4z\"/></svg>\r\n                  </div>\r\n                  <div class=\"ml-3\">\r\n                    <h2 class=\"font-semibold text-gray-800\">Do not re-enter the building until advised safe to do so </h2>\r\n                    <p class=\"mt-2 text-md text-gray-600 leading-relaxed\"></p>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n       </div>  \r\n<div class=\"p-6 my-8  border-l-8 border-sky-900 bg-gradient-to-tr from-sky-900 to-sky-400 text-white\">\r\n\r\n    <h1 class=\"my-6 text-center\"> Tick all potential fire hazards</h1>\r\n    <div class=\"grid grid-cols-3 text-sm \">\r\n        <button class=\"border-r-2 border-teal-200 p-2\" onclick=\"this.firstChild.classList.add('tick')\"><span></span>A. Full bins</button>\r\n\r\n        <button class=\" p-2\" onclick=\"this.firstChild.classList.add('tick')\"><span></span>B. Blocked fire exits</button>\r\n        <button class=\"border-l-2 border-teal-200 p-2\" onclick=\"this.firstChild.classList.add('tick')\"><span></span>C. External bins too close to the propert</button>\r\n        \r\n    </div>\r\n</div>  \r\n    </div>\r\n</div> \r\n\r\n  \r\n \r\n     \r\n    </div> \r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 30,
+  "fields": {
+    "owner": 2,
+    "title": "fire tri",
+    "created": "2022-10-01T15:49:43.924Z",
+    "updated": "2022-10-06T09:41:36.333Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl\">\r\n    <div class=\"max-w-3xl mx-auto  p-4 text-slate-700  \">\r\n        <h1 class=\"my-6 font-bold text-center\">To start a fire you need 3 elements.</h1>\r\n        <div class=\"grid sm:grid-cols-3 border max-w-md shadow-sm mb-6\">\r\n            <div class=\"sm:border-r m-2 \" ><img src=\"/media/images/tri.png\"></div>\r\n\r\n            <div class=\"col-span-2 p-6 text-lg\">They are Heat, Fuel and Oxygen. If you have all three of the above then a fire can start and it will burn. </div>\r\n        </div>\r\n  \r\n \r\n        <div class=\" text-lg mb-6\">\r\n            If you remove one of these elements the fire will stop or even better not start in the first place.\r\n            So, how do you do this. Well by following what we discussed in module 1 is a good place to start.\r\n        </div>  \r\n        <ul class=\"list-disc  text-lg mb-6\">\r\n            <li class=\"recap\">Checking fire exits are free from obstruction</li>\r\n            <li class=\"recap mt-2\">Noting any scorch/burn marks on plugs and reporting this </li>\r\n            <li class=\"recap mt-2\">Checking bins are emptied regularly</li>\r\n            <li class=\"recap mt-2\">Visual checks on emergency lighting to ensure it is working </li>\r\n            <li class=\"recap mt-2\">Checking the fire panel for faults</li>\r\n            <li class=\"recap mt-2\">Ensuring corridors are free from obstruction</li>\r\n            <li class=\"recap mt-2\">All people in the service should have a PEEP (PERSONAL EMERGENCY EVACUATION PLAN)</li>\r\n            <li class=\"recap mt-2\">All staff should know where the alarm points are and where to evacuate to.</li>\r\n            <li class=\"recap mt-2\">Fire doors should be kept shut and never propped open.</li>\r\n            <li class=\"recap mt-2\">Fire evacuation drills</li>\r\n            <li class=\"recap mt-2\">Checks of fire fighting equipment</li>\r\n            <li class=\"recap mt-2\">Lighting checks</li>\r\n            \r\n        </ul>\r\n        <div class=\"p-6 my-8  border-l-8 border-sky-900 bg-gradient-to-tr from-sky-900 to-sky-400 text-white\">\r\n    <h1 class=\"my-6 font-bold\"> What three elements do you need to make fire?</h1> \r\n    <h1 class=\"my-6 text-center\"> Tick the correct answer.</h1>\r\n    <div class=\"grid grid-cols-2 text-sm \">\r\n        <button class=\"border-r-2 border-teal-200 p-2\" onclick=\"this.firstChild.classList.add('tick')\"><span></span>A. Heat, fuel, oxygen</button>\r\n\r\n        <button class=\" p-2\" onclick=\"this.firstChild.classList.add('cross')\"><span></span>B. Heat, fuel, carbon dioxide </button>\r\n    </div>\r\n</div> \r\n    </div> \r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 31,
+  "fields": {
+    "owner": 2,
+    "title": "Hand Washing",
+    "created": "2022-10-04T09:33:35.320Z",
+    "updated": "2022-10-12T09:05:18.395Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl my-6 text-lg\">\r\n    <div class=\"max-w-3xl mx-auto  p-4 \">\r\n        <div>\r\n            <div class=\"w-full  mx-auto\">\r\n                <div class=\"flex p-5 rounded-lg shadow bg-white\">\r\n                 \r\n                  <div class=\"max-w-sm mx-auto overflow-scroll\">\r\n                   \r\n                    <p class=\"mt-2  \">You must wash your hands before and after supporting with personal care.  </p>\r\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/d3EPLfzNM_Q\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\r\n\r\n                  </div>\r\n                </div>\r\n              </div>\r\n You should use alcohol hand sanitiser at regular intervals. However, hand washing is the most effective way of cleaning your hands and reducing the spread of infection. \r\n            <h1 class=\"my-6 font-bold\">Hand washing  must be done I the correct way:</h1>\r\n            <ul class=\"space-y-4 list-disc list-inside\">\r\n               <li>First, wet your hands </li>\r\n               <li> Apply soap</li>\r\n               <li>Rub soap creating a lava</li>         \r\n                <li>\r\n                    Wash:\r\n                    <ol class=\"pl-5 mt-2 space-y-1 list-decimal list-inside\">\r\n                        <li>Around your hands</li>\r\n                        <li>In-between fingers</li>\r\n                        <li>Around the thumbs</li>\r\n                        <li>Scrub Centre of palms</li>\r\n                        <li>Rinse off</li>\r\n                        <li>Dry thoroughly</li>\r\n                        <li>Turn top off with paper towel </li>\r\n                        <li>Bin paper towel </li>\r\n                    </ol>\r\n                </li>\r\n<div class=\"p-6 my-8  border-l-8 border-sky-900 bg-gradient-to-tr from-sky-900 to-sky-400 text-white\">\r\n    <h1 class=\"my-6 font-bold\">Pop quiz!</h1> \r\n    <p class=\" mb-2\"> What is the most effective way of preventing infections from spreading?</p> \r\n   \r\n\r\n    <h1 class=\"my-6 text-center\"> Tick the correct answer.</h1>\r\n    <div class=\"grid grid-cols-2 text-sm \">\r\n        <button class=\"border-r-2 border-teal-200 p-2\" onclick=\"this.firstChild.classList.add('cross')\"><span></span>A. Hand sanitiser.</button>\r\n\r\n        <button class=\" p-2\" onclick=\"this.firstChild.classList.add('tick')\"><span></span>B. Hand washing </button>\r\n\r\n       \r\n    </div>\r\n    \r\n</div> \r\n       </div>  \r\n    </div>\r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 32,
+  "fields": {
+    "owner": 2,
+    "title": "Good",
+    "created": "2022-10-05T13:25:49.696Z",
+    "updated": "2022-10-05T13:25:49.696Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl\">\r\n    <div class=\"max-w-3xl mx-auto  p-4 text-slate-700  \">\r\n        <div class=\"text-lg\">\r\n            <p class=\" mb-2\">Just like poor mental health it is important to understand what good mental health looks like. Without knowing this it would be harder to know when our mental health is struggling. Again, there is no one size fits all.</p>\r\n            <p class=\" my-2\">Just because you or someone you know is having a bad day or bad week this does not automatically mean they are having concerns with their mental health as it is a normal emotion to feel down, sad, angry but it is how we deal with those emotions that matters.</p> \r\n            <p class=\" my-2\">You have a hobby, craft, outlet you enjoy and you take part in this regularly. You look after yourself and maintain a healthy diet and eat well. Someone who talks about problems they are having rather than bottling things up and keeping it to themselves. </p> \r\n            <p class=\" my-2\">It spans the wider society and about their understanding, so people like you are helping by undertaking this course. If you are an employer it may be worth championing mindfulness sessions such as relaxation sessions like yoga or meditation. Group reflective supervision where people can share experiences-<b>this should not be confused with counselling sessions</b>  - only a trained qualified professional is able to offer this. Taking part in mental health awareness week. Offering a mental health first aider service. Some employers go even further by offering an in house counselling service for free of charge but this is by no means the majority.</p>\r\n\r\n            <p class=\" my-2\">The benefits to this are reported as reduced employee absence, more productivity, reduced presenterism of poor mental health and better employee retention are but some of the listed benefits. If you are not an employer but an employee where the above are not offered, why not discuss it with the management if you think it is needed. </p> \r\n            <p class=\" my-6 font-bold\"> \r\n                It is important to remember your own behaviour can have an impact on how someone is feeling. \r\n            </p>\r\n                \r\n            <div class=\"max-w-sm mx-auto border rounded overflow-hidden my-12 shadow-md\">\r\n                <img src=\"../../../media/images/betari.png\" alt=\"betari model\">\r\n                <h1 class=\"mt-6 font-bold text-center\">Betari box model</h1>\r\n                <p class=\"p-6\">A tool I like to use to remember this is the Betari box model.   If you think of the above as a cycle then you can then see how our attitudes impact others.  </p>\r\n            </div>   \r\n       </div>  \r\n    </div>\r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 33,
+  "fields": {
+    "owner": 2,
+    "title": "How to safely manoeuvre an individual",
+    "created": "2022-10-10T15:12:16.311Z",
+    "updated": "2022-10-11T10:28:04.949Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl text-lg\">\r\n        <h1 class=\"text-xl text-center my-6 mx-auto\">How to safely manoeuvre an individual  </h1>\r\n        <h3 class=\"p-6\">First you need to consider the following points</h3>\r\n        <ul class=\"list-decimal p-6 mb-6 mx-6\">\r\n            <li>Avoid hazardous manual handling operations so far as is reasonably practicable</li>\r\n            <li class=\"my-4\">Assess any hazardous manual handling operations that cannot be avoided</li>\r\n            <li>Reduce the risk of injury so far as is reasonably practicable. </li>\r\n        </ul>\r\n        <h3 class=\" p-6\"> Some other points to consider are</h3>\r\n        <ul class=\"list-disc p-6 mb-6 mx-6\">\r\n            <li>Environment- where are you? What space is there? What hazards are around?</li>\r\n            <li class=\"my-4\">Individual- What limitations do they have? Any medical conditions to consider? Health history? </li>\r\n            <li>Equipment- do they require a hoist? Do they require another moving and handling aid such as a sliding sheet, bananna board? Do you know where your moving and handling kit is. </li>\r\n      </ul>\r\n      <div class=\"bg-green-100 border-l-4 border-green-500 text-green-700 p-4 max-w-lg mx-auto my-6\" role=\"alert\">\r\n        <p class=\"font-bold\"> When moving a person you should say</p>\r\n        <p>Ready, stead, lift/move.</p>\r\n      </div>\r\n      <div class=\"bg-red-100 border-l-4 border-red-500 text-red-700 p-4 max-w-lg  mx-auto my-6\" role=\"alert\">\r\n        <p class=\"font-bold\"> And not</p>\r\n        <p>One, two, three. </p>\r\n      </div>\r\n       \r\n       <p class=\"p-6\">\r\n        This is because lift or move gives the instruction whereas one, two three is unclear if you lift on three or after three which causes a risk to the individual being moved and also the people performing the manoeuvre. \r\n        \r\n        The person being moved, if capable, should be encouraged to do what they can for themselves. \r\n    </p>\r\n        <h3 class=\" p-6\">Some good practice points</h3>\r\n        <ul class=\"list-disc p-6 mb-6 mx-6\">\r\n            <li>Keep your spine in line</li>\r\n            <li class=\"my-4\">Keep load to your centre as this puts let's strain on the spine</li>\r\n            <li>Know where the moving and handling kit is </li>\r\n        </ul>\r\n        <div class=\"w-full mx-auto\">\r\n            <div class=\"flex p-5 rounded-lg  bg-white\">\r\n              <div>\r\n                <svg class=\"w-6 h-6 fill-current text-red-500\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M0 0h24v24H0V0z\" fill=\"none\"/><path d=\"M12 5.99L19.53 19H4.47L12 5.99M12 2L1 21h22L12 2zm1 14h-2v2h2v-2zm0-6h-2v4h2v-4z\"/></svg>\r\n              </div>\r\n              <div class=\"ml-3\">\r\n                <h2 class=\"font-bold text-gray-800\">Some big no no's.\r\n                </h2>\r\n                <p class=\"mt-2  text-gray-600 leading-relaxed\">Do  not twist your back - this is more likely to occur when performing a task such as putting shopping away \r\n        \r\n\r\n                </p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 34,
+  "fields": {
+    "owner": 2,
+    "title": "Move objects",
+    "created": "2022-10-11T09:47:28.594Z",
+    "updated": "2022-10-11T09:47:28.594Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl text-lg\">\r\n        <h1 class=\"text-center my-6 mx-auto text-xl font-bold\">How to safely move objects</h1>\r\n        <h3 class=\" p-6\">As pointed out in module 1 and 2 the key points are  </h3>\r\n        <ul class=\"list-decimal p-6 mb-6 mx-6\">\r\n            <li>Avoid hazardous manual handling operations so far as is reasonably practicable</li>\r\n            <li class=\"my-4\">Assess any hazardous manual handling operations that cannot be avoided</li>\r\n            <li>Reduce the risk of injury so far as is reasonably practicable. </li>\r\n        </ul>\r\n\r\n        <h1 class=\"mt-6 font-bold p-6\">Some other points to consider are</h1>\r\n        <ul class=\"list-disc p-6 text-lg\">\r\n            <li>Environment- where are you? What space is there? What hazards are around?</li>\r\n            <li class=\"my-4\">Equipment- is there a piece of equipment that could be used to move the object/item</li>\r\n            <li>Personal limitations - injuries, medical conditions </li>\r\n        </ul>\r\n       \r\n\r\n        <div class=\"w-full  mx-auto mt-12\">\r\n            <div class=\"flex p-5 rounded-lg  bg-white\">\r\n              <div>\r\n                <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"w-6 h-6 text-cyan-700\">\r\n                    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z\" />\r\n                  </svg>\r\n                  \r\n              </div>\r\n              <div class=\"ml-3\">\r\n                <h2 class=\"font-semibold text-gray-800\">Some good practice points</h2>\r\n                <p class=\"mt-2 text-md text-gray-600 leading-relaxed\"> Keep your spine inline</p>\r\n                <p class=\"mt-2 text-md text-gray-600 leading-relaxed\"> Keep load to your centre as this puts let's strain on the spine</p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        <div class=\"w-full  mx-auto mt-12\">\r\n            <div class=\"flex p-5 rounded-lg  bg-white\">\r\n              <div>\r\n                <svg class=\"w-6 h-6 fill-current text-red-500\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M0 0h24v24H0V0z\" fill=\"none\"/><path d=\"M12 5.99L19.53 19H4.47L12 5.99M12 2L1 21h22L12 2zm1 14h-2v2h2v-2zm0-6h-2v4h2v-4z\"/></svg>\r\n              </div>\r\n              <div class=\"ml-3\">\r\n                <h2 class=\"font-semibold text-gray-800\">Some big no no's \r\n                </h2>\r\n                <p class=\"mt-2 text-md text-gray-600 leading-relaxed\"> Do  not twist your back - this is more likely to occur when performing a task such as putting shopping away.\r\n\r\n                </p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n      \r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 35,
+  "fields": {
+    "owner": 2,
+    "title": "Regulations",
+    "created": "2022-10-11T09:52:04.664Z",
+    "updated": "2022-10-11T12:30:15.190Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl text-lg\">\r\n        <h1 class=\"text-xl text-center my-12 mx-auto font-bold\">The Manual Handling Operations Regulations 1992 (as amended) (MHOR) amended in 2002 </h1>\r\n        <h3 class=\" p-6\">The basic principles of this regulation are: </h3>\r\n        <ul class=\"list-decimal p-6 m-6\">\r\n            <li>Avoid hazardous manual handling operations so far as is reasonably practicable</li>\r\n            <li class=\"my-4\">Assess any hazardous manual handling operations that cannot be avoided</li>\r\n            <li>Reduce the risk of injury so far as is reasonably practicable. </li>\r\n        </ul>\r\n        <div class=\"w-full  mx-auto\">\r\n            <div class=\"flex p-5 rounded-lg  bg-white\">\r\n              <div>\r\n                <svg class=\"w-6 h-6 fill-current text-red-500\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M0 0h24v24H0V0z\" fill=\"none\"/><path d=\"M12 5.99L19.53 19H4.47L12 5.99M12 2L1 21h22L12 2zm1 14h-2v2h2v-2zm0-6h-2v4h2v-4z\"/></svg>\r\n              </div>\r\n              <div class=\"ml-3\">\r\n                <h2 class=\"font-semibold text-gray-800\">You should only use equipment you have been shown/trained to use. Your employer has a duty to train you to use equipment. You have a responsibility to only use equipment you have been trained to use. \r\n                </h2>\r\n                <p class=\"mt-6 text-md text-gray-600 leading-relaxed\">Never move someone because it is more convenient and quicker than them doing so themselves. This is not only ethically wrong it is illegal and would be seen as a mechanical or other form of restraint.\r\n\r\n                </p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"p-6 my-8  border-l-8 border-sky-900 bg-gradient-to-tr from-sky-900 to-sky-400 text-white\">\r\n            <h1 class=\"my-6 text-center\">What is the the first principle of moving and handling?</h1>\r\n            <div class=\"flex justify-center text-sm \">\r\n                <button class=\"border-r-2 border-teal-200 p-2\" onclick=\"this.firstChild.classList.add('cross')\"><span></span>A. Just do it</button>\r\n                <button class=\" p-2\" onclick=\"this.firstChild.classList.add('tick')\"><span></span>B. Avoid</button> \r\n            </div>\r\n        </div> \r\n</div>"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 36,
+  "fields": {
+    "owner": 2,
+    "title": "Risks",
+    "created": "2022-10-11T10:24:24.089Z",
+    "updated": "2022-10-11T10:24:24.089Z",
+    "content": "<div class=\"max-w-4xl mx-auto border-dashed border-4 bg-white rounded-lg shadow-2xl text-lg\">\r\n        <h1 class=\"text-xl text-center my-6 mx-auto font-bold\">The risks for you and others if you don't manoeuvre in a safe and correct manner </h1>\r\n        <h3 class=\"font-bold p-6\">There are risks involved in moving and handling.  </h3>\r\n        <ul class=\"list-decimal p-6 mb-6 mx-6\">\r\n            <li>Risks to you</li>\r\n            <li class=\"my-4\">Risks to the person being moved</li>\r\n            <li>Risks to others involved </li>\r\n        </ul>\r\n        <p class=\"p-6 my-6\">\r\n            Stresses, strains and sprains to the back, neck and upper limbs are all too common in industries where manual handling plays an integral part of the business.  Lifting and manoeuvring objects and repetitive tasks can all lead to Work-Related Musculoskeletal Disorders (WRMSDs). \r\n        </p>\r\n        <p class=\"p-6 my-6\">\r\n            Some published statistics have shown that in the UK, over 9.5 million working days were lost in 2014/15 due to WRMSDs which accounts for 44% of workforce ill-health in the same period.  \r\n        </p>\r\n        <h3 class=\"font-bold p-6\">Such injuries can be broken down into three areas </h3>\r\n        <ul class=\"list-decimal p-6 mb-6 mx-6\">\r\n            <li>Back injuries</li>\r\n            <li class=\"my-4\">Upper limb injuries</li>\r\n            <li>Lower limb injuries </li>\r\n        </ul>\r\n<div class=\"p-6 my-6\">\r\n        <div class=\"my-12 bg-orange-100 border-t-4 border-orange-500 rounded-b text-orange-900 px-4 py-3 shadow-md\" role=\"alert\">\r\n            <div class=\"flex\">\r\n              <div class=\"py-1\"><svg class=\"fill-current h-6 w-6 text-orange-500 mr-4\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z\"/></svg></div>\r\n              <div>\r\n                <p class=\"font-bold\">Back Injuries</p>\r\n                <p class=\"text-sm\">In 2014/15, it is estimated that nearly 3 million working days were lost due to injuries to the back. </p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"my-12 bg-orange-100 border-t-4 border-orange-500 rounded-b text-orange-900 px-4 py-3 shadow-md\" role=\"alert\">\r\n            <div class=\"flex\">\r\n              <div class=\"py-1\"><svg class=\"fill-current h-6 w-6 text-orange-500 mr-4\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z\"/></svg></div>\r\n              <div>\r\n                <p class=\"font-bold\">Upper limb injuries.</p>\r\n                <p class=\"text-sm\">These include injuries such as repetitive strain trauma, hand/wrist tendon syndromes, carpal tunnel syndrome and tennis/golfer’s elbow (epicondylitis) which can affect the shoulder, neck, arms, wrists or hands. </p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"my-12 bg-orange-100 border-t-4 border-orange-500 rounded-b text-orange-900 px-4 py-3 shadow-md\" role=\"alert\">\r\n            <div class=\"flex\">\r\n              <div class=\"py-1\"><svg class=\"fill-current h-6 w-6 text-orange-500 mr-4\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z\"/></svg></div>\r\n              <div>\r\n                <p class=\"font-bold\">Lower limb injuries.</p>\r\n                <p class=\"text-sm\">Although there were less lower limb disorders reported in 2014/15 – there were almost 2.4 million working days lost due to lower limb disorders. </p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"max-w-sm mx-auto border-8 border-dashed p-4 text-lg text-center\">\r\n            Generally speaking men are more likely to suffer and injury from moving and handling.\r\n        </div> \r\n\r\n          <div class=\"p-6 mt-12  border-l-8 border-sky-900 bg-gradient-to-tr from-sky-900 to-sky-400 text-white\">\r\n            <h1 class=\"my-6 text-center\">What are the three common injuries associated with poor moving and handling?</h1>\r\n            <div class=\"flex justify-center text-sm \">\r\n                <button class=\"border-r-2 border-teal-200 p-2\" onclick=\"this.firstChild.classList.add('tick')\"><span></span>A. Back, Upper limb, lower limb</button>\r\n                <button class=\" p-2\" onclick=\"this.firstChild.classList.add('cross')\"><span></span>B. Back, torso, legs</button> \r\n            </div>\r\n        </div> \r\n</div>"
+  }
+}
+]

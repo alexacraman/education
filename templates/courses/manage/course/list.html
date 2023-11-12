@@ -1,0 +1,26 @@
+{% extends 'account/base.html' %}
+{% block content %}
+<h1 class="text-2xl p-6 bg-slate-700 text-white">My courses</h1>
+<div class=" bg-sky-900 text-white">
+ 
+  {% for course in object_list %}
+    <div class="course-info p-6">
+      <h3 class="text-xl my-6">{{ course.title }}</h3>
+      <p>
+        <a href="{% url 'course_edit' course.slug %}" class="btn">Edit</a>
+        <a href="{% url 'course_delete' course.slug %}" class="btn">Delete</a>
+      <a href="{% url 'course_module_update' course.slug %}" class="btn">Edit modules</a>
+      {% if course.modules.count > 0 %}
+      <a href="{% url 'module_content_list' course.modules.first.id  %}" class="btn">Manage contents</a>
+      {% endif %}
+
+      </p>
+    </div>
+  {% empty %}
+    <p>You haven't created any courses yet.</p>
+  {% endfor %}
+  <p class="flex justify-center p-6">
+    <a href="{% url 'course_create' %}" class="py-2 px-8 border-2">Create new course</a>
+  </p>
+</div>
+{% endblock %}
